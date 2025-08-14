@@ -1,0 +1,249 @@
+{
+  "common": {
+    "btnStart": "Start Trading Now",
+    "btnRequest": "Request My Offer Now",
+    "btnGet": "Get My Personalized Offer",
+    "btnUpgrade": "Request Your Upgrade",
+    "TNC": "T&Cs apply",
+    "trust": "SquaredFinancial is rated <strong>Excellent</strong>",
+    "form": {
+      "header": "Request your offer",
+      "name": "Full name",
+      "country": "Country of residence",
+      "searchCountry": "Search country...",
+      "email": "Email",
+      "phone": "Phone",
+      "comment": "Tell us about your current setup",
+      "commentTooltip": "• Broker name<br />• Current bonus / leverage / spreads<br />• Approximate deposit or volume",
+      "formError": {
+        "title": "An error occurred",
+        "text": "Please resubmit your information or contact our Customer Support.",
+        "button": "OK"
+      }
+    },
+    "error": {
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email",
+      "emailRegistered": "The email address you have entered is already registered.",
+      "nameRequired": "Full name is required",
+      "nameTooShort": "Full name must be at least 3 characters long",
+      "nameTooLong": "Full name must be less than 100 characters long",
+      "namePartTooShort": "Name part must be at least 2 characters long",
+      "fullNameRequired": "Full name is required",
+      "nameInvalidCharacters": "Full name must contain only latin characters",
+      "phoneRequired": "Phone is required",
+      "phoneInvalid": "Please enter a valid phone number",
+      "phoneRegistered": "The phone number you have entered is already registered.",
+      "commentRequired": "Comment is required",
+      "commentTooLong": "Comment must be less than 500 characters"
+    },
+    "success": {
+      "title": "You Rock!",
+      "subtitle": "Thank you for your interest!",
+      "text": "We've received your submission. <br />You can expect to hear from us within the next few hours via email, phone, or WhatsApp. <br /><br />We look forward to working with you!"
+    }
+  },
+
+  "meta": {
+    "title": "Your Trading Conditions, Just Better | SquaredFinancial",
+    "description": "Trade with confidence under fair, transparent conditions. Enjoy better pricing, fast execution, personal support, and tailored bonuses—built for traders who expect more."
+  },
+
+  "alt": {
+    "logo": "squared logo",
+    "logo2": "SquaredFinancial Logo",
+    "arrow": "arrow",
+    "gamma": "gamma"
+  },
+
+  "heroSection": {
+    "title": "Your Conditions.<br /> Just Better",
+    "subtitle": "Already trading<br /> with another broker?",
+    "text": "Don't start from scratch — we'll match your exact conditions and top them up with a bonus for switching.",
+    "trust": "SquaredFinancial is rated <strong>Excellent</strong>",
+    "italicText": "\"SquaredFinancial leads the way with outstanding growth...\"",
+    "caption": "Awarded.<br /> Trusted.<br /> Recognized",
+    "tips": [
+      "Licensed & Regulated<br class='hidden-mobile'/> for your protection",
+      "24/7 Multilingual<br class='hidden-mobile'/> Support",
+      "Industry-leading platforms:<br class='hidden-mobile'/> MT4 & MT5"
+    ]
+  },
+
+  "qualitiesSection": {
+    "title": "Why Switch?",
+    "subtitle": "Here's What You Get",
+    "cards": {
+      "0": {
+        "title": "Matched Trading <br />Conditions",
+        "text": [
+          "Bonus type & size",
+          "Leverage & account type",
+          "Spreads & Commissions"
+        ]
+      },
+      "1": {
+        "title": "+10-20% <br />Extra Bonus",
+        "text": ["Just for moving over to us."]
+      },
+      "2": {
+        "title": "Personal <br />Support",
+        "text": [
+          "A dedicated manager to help you switch, verify, fund, and trade."
+        ]
+      },
+      "3": {
+        "title": "Tailored VIP <br />Offers",
+        "text": [
+          "Custom terms for high-volume or high-deposit traders — discussed 1-on-1."
+        ]
+      }
+    }
+  },
+
+  "meritSection": {
+    "title": "How It Works.<br />Fast and Simple",
+    "cards": {
+      "0": {
+        "title": "Tell us about your current setup",
+        "text": [
+          "Broker name",
+          "Current bonus / leverage / spreads",
+          "Approximate deposit or volume",
+          "(Optional: Screenshot or account summary)"
+        ]
+      },
+      "1": {
+        "title": "We build your custom offer",
+        "text": ["Equal or better conditions — no compromises."]
+      },
+      "2": {
+        "title": "Register and switch easily",
+        "text": ["We'll help with everything — no stress, just results."]
+      }
+    }
+  },
+
+  "vipSection": {
+    "title": "Are You a VIP Trader?",
+    "text": "Trading large volumes or managing big deposits?<br class='hidden-mobile' /><br class='hidden-mobile' /> We're ready to go beyond standard offers. Speak directly with our team for fully customized conditions — better than your current broker."
+  },
+
+  "specSection": {
+    "title": "Why SquaredFinancial",
+    "text": [
+      "<strong>years</strong> <br />of experience",
+      "Spreads from",
+      "<strong>pips</strong>",
+      "Leverage up to",
+      "execution speed",
+      "rated by traders",
+      "instruments",
+      "customer support"
+    ]
+  },
+
+  "tradesSection": {
+    "title": "Trade More. <br class='hidden-desktop' />Get More",
+    "text": "Trade on your verified account, <br />hit the volume targets, and receive exciting gifts.",
+    "cardTitles": ["Minimum deposit", "Promo gift"],
+    "content": {
+      "1": {
+        "text": ["5 lots", "T-Shirt"]
+      },
+      "2": {
+        "text": ["25 lots", "JBL Ear <br />Buds"]
+      },
+      "3": {
+        "text": ["50 lots", "JBL Wireless <br />Speaker"]
+      },
+      "4": {
+        "text": ["100 lots", "Smartwatch"]
+      },
+      "5": {
+        "text": ["200 lots", "Phone<br />(Android)"]
+      },
+      "6": {
+        "text": ["600 lots", "iPhone"]
+      }
+    }
+  },
+
+  "questionsSection": {
+    "title": "Frequently Asked Questions",
+    "questions": [
+      {
+        "question": "Do I need to deposit before getting an offer?",
+        "answer": "No. You'll receive your personalized offer first — only deposit once you're happy."
+      },
+      {
+        "question": "What kind of proof do I need?",
+        "answer": "A simple screenshot or trading statement is enough."
+      },
+      {
+        "question": "How long does it take to switch?",
+        "answer": "Most accounts are set up within 1 business day, with full support."
+      }
+    ]
+  },
+
+  "keepSection": {
+    "title": "Keep What You Like. <br />Trade With More",
+    "text": "Better conditions, <br />real support, <br />and a bonus to welcome you in."
+  },
+
+  "footer": {
+    "awards": {
+      "title": "Don't just take our word for it",
+      "caption": "Internationally awarded for excellence",
+      "cards": {
+        "1": {
+          "title": "Best Trading Mobile App",
+          "text": "Pan Finance"
+        },
+        "2": {
+          "title": "Best Stock Provider",
+          "text": "Global Brands Magazine"
+        },
+        "3": {
+          "title": "Best Client Fund Security",
+          "text": "Global Brands Magazine"
+        },
+        "4": {
+          "title": "Best CFDs Broker",
+          "text": "AtoZ Markets"
+        },
+        "5": {
+          "title": "Most Reliable Broker",
+          "text": "World Finance"
+        },
+        "6": {
+          "title": "Best Broker in Order Execution",
+          "text": "Rankia Awards"
+        }
+      }
+    },
+
+    "contacts": {
+      "copyright": "© SquaredFinancial 2025. All rights reserved.",
+      "findUs": "Find us on",
+      "address": "Commercial House 1, Office No.4, Eden Island, Mahe, Seychelles",
+      "contactUs": "Contact us"
+    },
+
+    "disclaimers": {
+      "1": {
+        "title": "Risk warning:",
+        "text": "Trading leveraged products involves a significant risk and can result in the loss of your invested capital."
+      },
+      "2": {
+        "title": "Disclaimers:",
+        "text": "The website is not intended to offer investment services to citizens of certain jurisdictions such as EU/EEA member states, UK, USA, Canada, Australia, New Zealand, FATF-listed countries including, among others, Iran, North Korea, and Myanmar (Burma). You must be 18 years old, or of legal age as determined in your country in order to register for an account."
+      },
+      "3": {
+        "title": "Legal:",
+        "text": "This website is operated by SQ Sey Ltd, a company authorised and regulated as a Securities Dealer by the Financial Services Authority of Seychelles with license number SD024."
+      }
+    }
+  }
+}

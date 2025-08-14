@@ -1,0 +1,208 @@
+{
+  "common": {
+    "btnStart": "Start Trading Now",
+    "btnSpin": "Spin Now",
+    "TNC": "T&Cs apply",
+    "hours": "HOURS",
+    "mins": "MINS",
+    "secs": "SECS",
+    "wheel": {
+      "spin": "Spin<br />Now",
+      "prizes": [
+        "<strong>1 on 1</strong><br />Session with our Chief Market Analyst",
+        "14 Days<br /> <strong>Swap-Free</strong>",
+        "Loyalty<br />Points Boost",
+        "Mystery Gift",
+        "25% First-Time Deposit Bonus",
+        "More Spins",
+        "100% First-Time<br /> Deposit & 50%<br /> Redeposit Bonus",
+        "Free VPS"
+      ]
+    },
+    "spinError": {
+      "title": "No more spins for today!",
+      "text": "Please try again tomorrow.",
+      "button": "OK"
+    },
+    "form": {
+      "header": "Congratulations",
+      "text": "You Won",
+      "title": {
+        "100bonus": "100% Bonus",
+        "25bonus": "25% First-Time Deposit Bonus",
+        "session": "1-1 Session"
+      },
+      "claimBtn": "Claim Now",
+      "spinBtn": "Spin Again",
+      "spinLeft": "spins left"
+    }
+  },
+
+  "meta": {
+    "title": "SquaredFinancial | Spin It. Win It. – Forex Bonuses & Rewards",
+    "description": "Spin it, win it, use it – or regret it! Get instant Forex rewards with no deposit required: trading bonuses, loyalty points, risk-free trades, and more. One spin could unlock your next big win!"
+  },
+
+  "alt": {
+    "logo": "squared logo",
+    "logo2": "SquaredFinancial Logo",
+    "arrow": "arrow",
+    "gamma": "gamma"
+  },
+
+  "heroSection": {
+    "title": "Spin It. Win It. Use It.<br />Or Regret It",
+    "subtitle": "One spin could unlock your<br class='hidden-mobile' /> next big win!",
+    "trust": "SquaredFinancial is rated <strong>Excellent</strong>",
+    "caption": "Get Instant Rewards.<br /> No Deposit Required",
+    "tips": ["Trading bonuses", "Loyalty points", "Risk-free trades"]
+  },
+
+  "qualitiesSection": {
+    "title": "How It Works",
+    "subtitle": "Grab trading bonuses, loyalty points, risk-free trades, and more.",
+    "trust": "4.4/5* rated by traders",
+    "cards": {
+      "0": {
+        "title": "Click “Spin Now”",
+        "text": "to launch the wheel."
+      },
+      "1": {
+        "title": "Spin & win instantly",
+        "text": "Every spin guarantees a prize."
+      },
+      "2": {
+        "title": "Claim your reward ",
+        "text": "and follow the instructions to use it."
+      }
+    }
+  },
+
+  "prizeSection": {
+    "title": "Prizes You Can Win",
+    "subtitle": "Every spin is a win!",
+    "cards": [
+      "<strong>100%</strong><br /> First-Time Deposit<br /> and<br /> <strong>50%</strong><br /> Redeposit Bonus",
+      "<strong>1 on 1 Session</strong><br /> with our Chief Market Analyst",
+      "14 Days<br /> <strong>Swap-Free</strong>",
+      "Loyalty<br /> <strong>Points Boost</strong>",
+      "Free<br /> <strong>VPS</strong>",
+      "Exclusive<br /> <strong>Trading Tools</strong>",
+      "Mystery<br /> <strong>Gift</strong>",
+      "More<br /> <strong>Spins</strong>"
+    ]
+  },
+
+  "meritSection": {
+    "cards": {
+      "0": {
+        "title": "Limited-Time Offer",
+        "text": "Don’t miss out – the wheel is only available until"
+      },
+      "1": {
+        "title": "No Deposit Needed",
+        "text": "It’s free to spin – all you need is an account.<br class='hidden-mobile' /> New to our platform?",
+        "subtitle": "Spin. Register. Win. It’s that simple."
+      }
+    }
+  },
+
+  "accountSection": {
+    "title": "Every spin is a win"
+  },
+
+  "specSection": {
+    "title": "Why Traders Choose Us",
+    "text": [
+      "<strong>years</strong> <br />of experience",
+      "Spreads from",
+      "<strong>pips</strong>",
+      "Leverage up to",
+      "execution speed",
+      "rated by traders",
+      "instruments",
+      "customer support"
+    ]
+  },
+
+  "tradesSection": {
+    "title": "Trade More. <br class='hidden-desktop' />Get More",
+    "text": "Trade on your verified account, <br />hit the volume targets, and receive exciting gifts.",
+    "cardTitles": ["Minimum deposit", "Promo gift"],
+    "content": {
+      "1": {
+        "text": ["5 lots", "T-Shirt"]
+      },
+      "2": {
+        "text": ["25 lots", "JBL Ear <br />Buds"]
+      },
+      "3": {
+        "text": ["50 lots", "JBL Wireless <br />Speaker"]
+      },
+      "4": {
+        "text": ["100 lots", "Smart<br class=hidden-desktop />watch"]
+      },
+      "5": {
+        "text": ["200 lots", "Phone<br />(Android)"]
+      },
+      "6": {
+        "text": ["600 lots", "iPhone"]
+      }
+    }
+  },
+
+  "footer": {
+    "awards": {
+      "title": "Don't just take our word for it",
+      "caption": "Internationally awarded for excellence",
+      "cards": {
+        "1": {
+          "title": "Best Trading Mobile App",
+          "text": "Pan Finance"
+        },
+        "2": {
+          "title": "Best Stock Provider",
+          "text": "Global Brands Magazine"
+        },
+        "3": {
+          "title": "Best Client Fund Security",
+          "text": "Global Brands Magazine"
+        },
+        "4": {
+          "title": "Best CFDs Broker",
+          "text": "AtoZ Markets"
+        },
+        "5": {
+          "title": "Most Reliable Broker",
+          "text": "World Finance"
+        },
+        "6": {
+          "title": "Best Broker in Order Execution",
+          "text": "Rankia Awards"
+        }
+      }
+    },
+
+    "contacts": {
+      "copyright": "© SquaredFinancial 2025. All rights reserved.",
+      "findUs": "Find us on",
+      "address": "Commercial House 1, Office No.4, Eden Island, Mahe, Seychelles",
+      "contactUs": "Contact us"
+    },
+
+    "disclaimers": {
+      "1": {
+        "title": "Risk warning:",
+        "text": "Trading leveraged products involves a significant risk and can result in the loss of your invested capital."
+      },
+      "2": {
+        "title": "Disclaimers:",
+        "text": "The website is not intended to offer investment services to citizens of certain jurisdictions such as EU/EEA member states, UK, USA, Canada, Australia, New Zealand, FATF-listed countries including, among others, Iran, North Korea, and Myanmar (Burma). You must be 18 years old, or of legal age as determined in your country in order to register for an account."
+      },
+      "3": {
+        "title": "Legal:",
+        "text": "This website is operated by SQ Sey Ltd, a company authorised and regulated as a Securities Dealer by the Financial Services Authority of Seychelles with license number SD024."
+      }
+    }
+  }
+}

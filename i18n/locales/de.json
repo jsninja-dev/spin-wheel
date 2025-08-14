@@ -1,0 +1,236 @@
+{
+  "common": {
+    "btnStart": "Jetzt handeln",
+    "btnRequest": "Angebot anfordern",
+    "btnGet": "Personalisiertes Angebot erhalten",
+    "btnUpgrade": "Upgrade anfordern",
+    "TNC": "AGB gelten",
+    "trust": "SquaredFinancial wird als <strong>Ausgezeichnet</strong> bewertet",
+    "form": {
+      "header": "Angebot anfordern",
+      "name": "Vollständiger Name",
+      "country": "Wohnsitzland",
+      "searchCountry": "Land suchen...",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "comment": "Beschreiben Sie Ihr aktuelles Setup",
+      "commentTooltip": "• Broker-Name<br />• Aktueller Bonus / Hebel / Spreads<br />• Ungefähre Einzahlung oder Volumen",
+      "formError": {
+        "title": "Ein Fehler ist aufgetreten",
+        "text": "Bitte senden Sie Ihre Informationen erneut oder kontaktieren Sie unseren Kundendienst.",
+        "button": "OK"
+      }
+    },
+    "error": {
+      "emailRequired": "E-Mail ist erforderlich",
+      "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+      "emailRegistered": "Die eingegebene E-Mail-Adresse ist bereits registriert.",
+      "nameRequired": "Vollständiger Name ist erforderlich",
+      "nameTooShort": "Der Name muss mindestens 3 Zeichen lang sein",
+      "nameTooLong": "Der Name muss weniger als 100 Zeichen lang sein",
+      "namePartTooShort": "Jeder Teil des Namens muss mindestens 2 Zeichen lang sein",
+      "fullNameRequired": "Vollständiger Name ist erforderlich",
+      "nameInvalidCharacters": "Der Name darf nur lateinische Zeichen enthalten",
+      "phoneRequired": "Telefon ist erforderlich",
+      "phoneInvalid": "Bitte geben Sie eine gültige Telefonnummer ein",
+      "phoneRegistered": "Die eingegebene Telefonnummer ist bereits registriert.",
+      "commentRequired": "Kommentar ist erforderlich",
+      "commentTooLong": "Der Kommentar muss weniger als 500 Zeichen lang sein"
+    },
+    "success": {
+      "title": "Sie sind großartig!",
+      "subtitle": "Vielen Dank für Ihr Interesse!",
+      "text": "Wir haben Ihre Unterlagen erhalten. <br />Sie können in den nächsten Stunden per E-Mail, Telefon oder WhatsApp von uns hören. <br /><br />Wir freuen uns auf die Zusammenarbeit mit Ihnen!"
+    }
+  },
+  "meta": {
+    "title": "Ihre Handelsbedingungen, nur besser | SquaredFinancial",
+    "description": "Handeln Sie mit Vertrauen unter fairen, transparenten Bedingungen. Genießen Sie bessere Preise, schnelle Ausführung, persönliche Unterstützung und maßgeschneiderte Boni - für Trader, die mehr erwarten."
+  },
+  "alt": {
+    "logo": "squared logo",
+    "logo2": "SquaredFinancial Logo",
+    "arrow": "arrow",
+    "gamma": "gamma"
+  },
+  "heroSection": {
+    "title": "Ihre Konditionen.<br /> Besser",
+    "subtitle": "Handeln Sie bereits<br /> mit einem anderen Broker?",
+    "text": "Fangen Sie nicht bei Null an - wir passen Ihre genauen Bedingungen an und ergänzen sie mit einem Wechselbonus.",
+    "trust": "SquaredFinancial wird als <strong>Ausgezeichnet</strong> bewertet",
+    "italicText": "\"SquaredFinancial führt mit herausragendem Wachstum...\"",
+    "caption": "Ausgezeichnet.<br /> Vertrauenswürdig.<br /> Anerkannt",
+    "tips": [
+      "Lizenziert & Reguliert<br class='hidden-mobile'/> zu Ihrem Schutz",
+      "24/7 Mehrsprachiger<br class='hidden-mobile'/> Support",
+      "Branchenführende Plattformen:<br class='hidden-mobile'/> MT4 & MT5"
+    ]
+  },
+  "qualitiesSection": {
+    "title": "Warum wechseln?",
+    "subtitle": "Das erhalten Sie",
+    "cards": {
+      "0": {
+        "title": "Angepasste Handels-<br />bedingungen",
+        "text": [
+          "Bonusart & -größe",
+          "Hebel & Kontotyp",
+          "Spreads & Kommissionen"
+        ]
+      },
+      "1": {
+        "title": "+10-20%<br />Extra-Bonus",
+        "text": ["Nur für den Wechsel zu uns."]
+      },
+      "2": {
+        "title": "Persönliche<br />Unterstützung",
+        "text": [
+          "Ein persönlicher Manager hilft Ihnen beim Wechsel, der Verifizierung, der Einzahlung und dem Handel."
+        ]
+      },
+      "3": {
+        "title": "Maßgeschneiderte VIP-<br />Angebote",
+        "text": [
+          "Individuelle Bedingungen für Hochvolumen- oder Hochdepot-Trader - persönlich besprochen."
+        ]
+      }
+    }
+  },
+  "meritSection": {
+    "title": "So funktioniert's.<br />Schnell und einfach",
+    "cards": {
+      "0": {
+        "title": "Teilen Sie uns Ihr aktuelles Setup mit",
+        "text": [
+          "Broker-Name",
+          "Aktueller Bonus / Hebel / Spreads",
+          "Ungefähre Einzahlung oder Volumen",
+          "(Optional: Screenshot oder Kontozusammenfassung)"
+        ]
+      },
+      "1": {
+        "title": "Wir erstellen Ihr individuelles Angebot",
+        "text": ["Gleiche oder bessere Bedingungen - keine Kompromisse."]
+      },
+      "2": {
+        "title": "Registrieren und einfach wechseln",
+        "text": ["Wir helfen bei allem - kein Stress, nur Ergebnisse."]
+      }
+    }
+  },
+  "vipSection": {
+    "title": "Sind Sie ein VIP-Trader?",
+    "text": "Handeln Sie mit großen Volumina oder verwalten Sie große Einzahlungen?<br class='hidden-mobile' /><br class='hidden-mobile' /> Wir gehen über Standardangebote hinaus. Sprechen Sie direkt mit unserem Team für vollständig individuell angepasste Bedingungen - besser als bei Ihrem aktuellen Broker."
+  },
+  "specSection": {
+    "title": "Warum SquaredFinancial",
+    "text": [
+      "<strong>Jahre</strong> <br />Erfahrung",
+      "Spreads ab",
+      "<strong>Pips</strong>",
+      "Hebel bis zu",
+      "Ausführungsgeschwindigkeit",
+      "von Tradern bewertet",
+      "Instrumente",
+      "Kundensupport"
+    ]
+  },
+  "tradesSection": {
+    "title": "Handeln Sie mehr. <br />Erhalten Sie mehr",
+    "text": "Handeln Sie auf Ihrem verifizierten Konto, <br />erreichen Sie die Volumenziele und erhalten Sie tolle Geschenke.",
+    "cardTitles": ["Mindesteinzahlung", "Werbegeschenk"],
+    "content": {
+      "1": {
+        "text": ["5 Lots", "T-Shirt"]
+      },
+      "2": {
+        "text": ["25 Lots", "JBL Kopf-<br />hörer"]
+      },
+      "3": {
+        "text": ["50 Lots", "JBL Wireless-<br />Lautsprecher"]
+      },
+      "4": {
+        "text": ["100 Lots", "Smartwatch"]
+      },
+      "5": {
+        "text": ["200 Lots", "Smartphone<br />(Android)"]
+      },
+      "6": {
+        "text": ["600 Lots", "iPhone"]
+      }
+    }
+  },
+  "questionsSection": {
+    "title": "Häufig gestellte Fragen",
+    "questions": [
+      {
+        "question": "Muss ich vor Erhalt eines Angebots einzahlen?",
+        "answer": "Nein. Sie erhalten zuerst Ihr individuelles Angebot - zahlen Sie nur ein, wenn Sie zufrieden sind."
+      },
+      {
+        "question": "Welche Art von Nachweis benötige ich?",
+        "answer": "Ein einfacher Screenshot oder Handelsauszug genügt."
+      },
+      {
+        "question": "Wie lange dauert der Wechsel?",
+        "answer": "Die meisten Konten werden innerhalb eines Werktages eingerichtet, mit voller Unterstützung."
+      }
+    ]
+  },
+  "keepSection": {
+    "title": "Behalten Sie, was Sie mögen. <br />Handeln Sie mit mehr",
+    "text": "Bessere Bedingungen, <br />echte Unterstützung, <br />und ein Willkommensbonus."
+  },
+  "footer": {
+    "awards": {
+      "title": "Nicht nur unser Wort",
+      "caption": "International für Exzellenz ausgezeichnet",
+      "cards": {
+        "1": {
+          "title": "Beste Handels-App",
+          "text": "Pan Finance"
+        },
+        "2": {
+          "title": "Bester Aktienanbieter",
+          "text": "Global Brands Magazine"
+        },
+        "3": {
+          "title": "Bester Kundengeldsschutz",
+          "text": "Global Brands Magazine"
+        },
+        "4": {
+          "title": "Bester CFDs-Broker",
+          "text": "AtoZ Markets"
+        },
+        "5": {
+          "title": "Zuverlässigster Broker",
+          "text": "World Finance"
+        },
+        "6": {
+          "title": "Bester Broker in Orderausführung",
+          "text": "Rankia Awards"
+        }
+      }
+    },
+    "contacts": {
+      "copyright": "© SquaredFinancial 2025. Alle Rechte vorbehalten.",
+      "findUs": "Finden Sie uns auf",
+      "address": "Commercial House 1, Office No.4, Eden Island, Mahe, Seychelles",
+      "contactUs": "Kontaktieren Sie uns"
+    },
+    "disclaimers": {
+      "1": {
+        "title": "Risikohinweis:",
+        "text": "Der Handel mit gehebelten Produkten birgt ein erhebliches Risiko und kann zum Verlust Ihres eingesetzten Kapitals führen."
+      },
+      "2": {
+        "title": "Haftungsausschluss:",
+        "text": "Die Website ist nicht für die Erbringung von Anlagedienstleistungen für Bürger bestimmter Gerichtsbarkeiten wie EU/EWR-Mitgliedstaaten, UK, USA, Kanada, Australien, Neuseeland, FATF-gelistete Länder einschließlich unter anderem Iran, Nordkorea und Myanmar (Birma) bestimmt. Sie müssen 18 Jahre alt sein oder das gesetzliche Alter in Ihrem Land erreicht haben, um ein Konto zu registrieren."
+      },
+      "3": {
+        "title": "Rechtlich:",
+        "text": "Diese Website wird von SQ Sey Ltd betrieben, einem als Wertpapierhändler von der Financial Services Authority der Seychellen zugelassenen und regulierten Unternehmen mit Lizenznummer SD024."
+      }
+    }
+  }
+}

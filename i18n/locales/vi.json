@@ -1,0 +1,236 @@
+{
+  "common": {
+    "btnStart": "Bắt đầu giao dịch ngay",
+    "btnRequest": "Yêu cầu ưu đãi ngay",
+    "btnGet": "Nhận ưu đãi cá nhân hóa",
+    "btnUpgrade": "Yêu cầu nâng cấp",
+    "TNC": "Điều khoản áp dụng",
+    "trust": "SquaredFinancial được đánh giá <strong>Xuất sắc</strong>",
+    "form": {
+      "header": "Yêu cầu báo giá",
+      "name": "Họ và tên",
+      "country": "Quốc gia cư trú",
+      "searchCountry": "Tìm kiếm quốc gia...",
+      "email": "Email",
+      "phone": "Số điện thoại",
+      "comment": "Mô tả cài đặt của bạn",
+      "commentTooltip": "• Tên nhà môi giới<br />• Khuyến mãi / đòn bẩy / spread hiện tại<br />• Số tiền gửi hoặc khối lượng giao dịch",
+      "formError": {
+        "title": "Đã xảy ra lỗi",
+        "text": "Vui lòng gửi lại thông tin hoặc liên hệ Bộ phận Hỗ trợ Khách hàng.",
+        "button": "OK"
+      }
+    },
+    "error": {
+      "emailRequired": "Vui lòng nhập email",
+      "emailInvalid": "Vui lòng nhập email hợp lệ",
+      "emailRegistered": "Email bạn nhập đã được đăng ký.",
+      "nameRequired": "Vui lòng nhập họ tên",
+      "nameTooShort": "Họ tên phải có ít nhất 3 ký tự",
+      "nameTooLong": "Họ tên phải ít hơn 100 ký tự",
+      "namePartTooShort": "Mỗi phần tên phải có ít nhất 2 ký tự",
+      "fullNameRequired": "Vui lòng nhập đầy đủ họ tên",
+      "nameInvalidCharacters": "Họ tên chỉ được chứa ký tự Latin",
+      "phoneRequired": "Vui lòng nhập số điện thoại",
+      "phoneInvalid": "Vui lòng nhập số điện thoại hợp lệ",
+      "phoneRegistered": "Số điện thoại bạn nhập đã được đăng ký.",
+      "commentRequired": "Vui lòng nhập bình luận",
+      "commentTooLong": "Bình luận phải ít hơn 500 ký tự"
+    },
+    "success": {
+      "title": "Bạn thật tuyệt!",
+      "subtitle": "Cảm ơn sự quan tâm của bạn!",
+      "text": "Chúng tôi đã nhận được thông tin của bạn. <br />Bạn sẽ nhận được phản hồi trong vài giờ tới qua email, điện thoại hoặc WhatsApp. <br /><br />Chúng tôi mong được hợp tác cùng bạn!"
+    }
+  },
+  "meta": {
+    "title": "Điều kiện giao dịch của bạn, tốt hơn | SquaredFinancial",
+    "description": "Giao dịch tự tin với điều kiện minh bạch. Hưởng mức giá tốt hơn, khớp lệnh nhanh, hỗ trợ cá nhân và ưu đãi riêng - dành cho trader đòi hỏi nhiều hơn."
+  },
+  "alt": {
+    "logo": "squared logo",
+    "logo2": "SquaredFinancial Logo",
+    "arrow": "arrow",
+    "gamma": "gamma"
+  },
+  "heroSection": {
+    "title": "Điều kiện của bạn.<br /> Tốt hơn",
+    "subtitle": "Đã giao dịch<br /> với broker khác?",
+    "text": "Không cần bắt đầu lại - chúng tôi sẽ đáp ứng điều kiện hiện tại của bạn và thêm tiền thưởng khi chuyển đổi.",
+    "trust": "SquaredFinancial được đánh giá <strong>Xuất sắc</strong>",
+    "italicText": "\"SquaredFinancial dẫn đầu với tăng trưởng vượt trội...\"",
+    "caption": "Đạt giải.<br /> Đáng tin cậy.<br /> Được công nhận",
+    "tips": [
+      "Được cấp phép & Quản lý<br class='hidden-mobile'/> để bảo vệ bạn",
+      "Hỗ trợ đa ngôn ngữ<br class='hidden-mobile'/> 24/7",
+      "Nền tảng hàng đầu:<br class='hidden-mobile'/> MT4 & MT5"
+    ]
+  },
+  "qualitiesSection": {
+    "title": "Tại sao nên chuyển đổi?",
+    "subtitle": "Đây là những gì bạn nhận được",
+    "cards": {
+      "0": {
+        "title": "Điều kiện giao dịch<br />tương đương",
+        "text": [
+          "Loại & mức tiền thưởng",
+          "Đòn bẩy & loại tài khoản",
+          "Spread & hoa hồng"
+        ]
+      },
+      "1": {
+        "title": "+10-20%<br />Tiền thưởng thêm",
+        "text": ["Chỉ dành cho việc chuyển sang chúng tôi"]
+      },
+      "2": {
+        "title": "Hỗ trợ<br />cá nhân",
+        "text": [
+          "Quản lý riêng hỗ trợ bạn chuyển đổi, xác minh, nạp tiền và giao dịch"
+        ]
+      },
+      "3": {
+        "title": "Ưu đãi VIP<br />riêng biệt",
+        "text": [
+          "Điều kiện tùy chỉnh cho trader khối lượng lớn - trao đổi trực tiếp"
+        ]
+      }
+    }
+  },
+  "meritSection": {
+    "title": "Cách thức hoạt động.<br />Nhanh và đơn giản",
+    "cards": {
+      "0": {
+        "title": "Cho chúng tôi biết thiết lập hiện tại",
+        "text": [
+          "Tên broker",
+          "Tiền thưởng/đòn bẩy/spread hiện tại",
+          "Số tiền gửi hoặc khối lượng gần đúng",
+          "(Tùy chọn: Ảnh chụp màn hình hoặc báo cáo tài khoản)"
+        ]
+      },
+      "1": {
+        "title": "Chúng tôi tạo ưu đãi riêng cho bạn",
+        "text": ["Điều kiện tương đương hoặc tốt hơn - không thỏa hiệp"]
+      },
+      "2": {
+        "title": "Đăng ký và chuyển đổi dễ dàng",
+        "text": ["Chúng tôi hỗ trợ mọi thứ - không áp lực, chỉ kết quả"]
+      }
+    }
+  },
+  "vipSection": {
+    "title": "Bạn có phải là Trader VIP?",
+    "text": "Giao dịch khối lượng lớn hoặc quản lý tiền gửi lớn?<br class='hidden-mobile' /><br class='hidden-mobile' /> Chúng tôi sẵn sàng vượt xa ưu đãi thông thường. Trao đổi trực tiếp để nhận điều kiện tùy chỉnh - tốt hơn broker hiện tại."
+  },
+  "specSection": {
+    "title": "Tại sao chọn SquaredFinancial",
+    "text": [
+      "<strong>năm</strong> <br />kinh nghiệm",
+      "Spread từ",
+      "<strong>pip</strong>",
+      "Đòn bẩy lên tới",
+      "tốc độ khớp lệnh",
+      "được đánh giá bởi trader",
+      "công cụ",
+      "hỗ trợ khách hàng"
+    ]
+  },
+  "tradesSection": {
+    "title": "Giao dịch nhiều hơn. <br />Nhận nhiều hơn",
+    "text": "Giao dịch trên tài khoản đã xác minh, <br />đạt mục tiêu khối lượng và nhận quà tặng hấp dẫn.",
+    "cardTitles": ["Tiền gửi tối thiểu", "Quà tặng khuyến mãi"],
+    "content": {
+      "1": {
+        "text": ["5 lot", "Áo thun"]
+      },
+      "2": {
+        "text": ["25 lot", "Tai nghe<br />JBL"]
+      },
+      "3": {
+        "text": ["50 lot", "Loa không dây<br />JBL"]
+      },
+      "4": {
+        "text": ["100 lot", "Đồng hồ thông minh"]
+      },
+      "5": {
+        "text": ["200 lot", "Điện thoại<br />(Android)"]
+      },
+      "6": {
+        "text": ["600 lot", "iPhone"]
+      }
+    }
+  },
+  "questionsSection": {
+    "title": "Câu hỏi thường gặp",
+    "questions": [
+      {
+        "question": "Tôi có cần nạp tiền trước khi nhận ưu đãi không?",
+        "answer": "Không. Bạn sẽ nhận ưu đãi cá nhân trước - chỉ nạp tiền khi hài lòng."
+      },
+      {
+        "question": "Tôi cần cung cấp bằng chứng gì?",
+        "answer": "Chỉ cần ảnh chụp màn hình hoặc báo cáo giao dịch đơn giản."
+      },
+      {
+        "question": "Mất bao lâu để chuyển đổi?",
+        "answer": "Hầu hết tài khoản được thiết lập trong 1 ngày làm việc, với hỗ trợ đầy đủ."
+      }
+    ]
+  },
+  "keepSection": {
+    "title": "Giữ điều bạn thích. <br />Giao dịch với nhiều hơn",
+    "text": "Điều kiện tốt hơn, <br />hỗ trợ thực sự, <br />và tiền thưởng chào mừng."
+  },
+  "footer": {
+    "awards": {
+      "title": "Đừng chỉ tin lời chúng tôi",
+      "caption": "Được trao giải quốc tế về chất lượng",
+      "cards": {
+        "1": {
+          "title": "Ứng dụng giao dịch di động tốt nhất",
+          "text": "Pan Finance"
+        },
+        "2": {
+          "title": "Nhà cung cấp cổ phiếu tốt nhất",
+          "text": "Global Brands Magazine"
+        },
+        "3": {
+          "title": "Bảo mật tiền khách hàng tốt nhất",
+          "text": "Global Brands Magazine"
+        },
+        "4": {
+          "title": "Broker CFD tốt nhất",
+          "text": "AtoZ Markets"
+        },
+        "5": {
+          "title": "Broker đáng tin cậy nhất",
+          "text": "World Finance"
+        },
+        "6": {
+          "title": "Broker khớp lệnh tốt nhất",
+          "text": "Rankia Awards"
+        }
+      }
+    },
+    "contacts": {
+      "copyright": "© SquaredFinancial 2025. Mọi quyền được bảo lưu.",
+      "findUs": "Tìm chúng tôi trên",
+      "address": "Commercial House 1, Office No.4, Eden Island, Mahe, Seychelles",
+      "contactUs": "Liên hệ chúng tôi"
+    },
+    "disclaimers": {
+      "1": {
+        "title": "Cảnh báo rủi ro:",
+        "text": "Giao dịch sản phẩm có đòn bẩy mang rủi ro cao và có thể dẫn đến mất vốn đầu tư."
+      },
+      "2": {
+        "title": "Tuyên bố miễn trừ:",
+        "text": "Website không dành cho công dân một số khu vực như EU/EEA, UK, Mỹ, Canada, Úc, New Zealand, các nước trong danh sách FATF bao gồm Iran, Triều Tiên, Myanmar. Bạn phải từ 18 tuổi trở lên."
+      },
+      "3": {
+        "title": "Pháp lý:",
+        "text": "Website được vận hành bởi SQ Sey Ltd, công ty được cấp phép bởi Cơ quan Dịch vụ Tài chính Seychelles với giấy phép SD024."
+      }
+    }
+  }
+}

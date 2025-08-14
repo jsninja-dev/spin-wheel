@@ -1,0 +1,236 @@
+{
+  "common": {
+    "btnStart": "Inizia a fare trading ora",
+    "btnRequest": "Richiedi la mia offerta ora",
+    "btnGet": "Ottieni la mia offerta personalizzata",
+    "btnUpgrade": "Richiedi il tuo upgrade",
+    "TNC": "Si applicano T&C",
+    "trust": "SquaredFinancial è valutato <strong>Eccellente</strong>",
+    "form": {
+      "header": "Richiedi la tua offerta",
+      "name": "Nome completo",
+      "country": "Paese di residenza",
+      "searchCountry": "Cerca paese...",
+      "email": "Email",
+      "phone": "Telefono",
+      "comment": "Descrivi la tua configurazione",
+      "commentTooltip": "• Nome del broker<br />• Bonus / leva / spread attuali<br />• Deposito approssimativo o volume",
+      "formError": {
+        "title": "Si è verificato un errore",
+        "text": "Invia nuovamente le tue informazioni o contatta l'Assistenza Clienti.",
+        "button": "OK"
+      }
+    },
+    "error": {
+      "emailRequired": "L'email è obbligatoria",
+      "emailInvalid": "Inserisci un'email valida",
+      "emailRegistered": "L'email inserita è già registrata.",
+      "nameRequired": "Il nome completo è obbligatorio",
+      "nameTooShort": "Il nome deve contenere almeno 3 caratteri",
+      "nameTooLong": "Il nome deve essere inferiore a 100 caratteri",
+      "namePartTooShort": "Ogni parte del nome deve contenere almeno 2 caratteri",
+      "fullNameRequired": "Il nome completo è obbligatorio",
+      "nameInvalidCharacters": "Il nome deve contenere solo caratteri latini",
+      "phoneRequired": "Il telefono è obbligatorio",
+      "phoneInvalid": "Inserisci un numero di telefono valido",
+      "phoneRegistered": "Il numero di telefono inserito è già registrato.",
+      "commentRequired": "Il commento è obbligatorio",
+      "commentTooLong": "Il commento deve essere inferiore a 500 caratteri"
+    },
+    "success": {
+      "title": "Sei fantastico!",
+      "subtitle": "Grazie per l'interesse!",
+      "text": "Abbiamo ricevuto la tua richiesta. <br />Riceverai nostre notizie entro le prossime ore via email, telefono o WhatsApp. <br /><br />Non vediamo l'ora di lavorare con te!"
+    }
+  },
+  "meta": {
+    "title": "Le tue condizioni di trading, solo migliori | SquaredFinancial",
+    "description": "Opera con fiducia in condizioni eque e trasparenti. Goditi prezzi migliori, esecuzione veloce, supporto personalizzato e bonus su misura - creati per trader che si aspettano di più."
+  },
+  "alt": {
+    "logo": "squared logo",
+    "logo2": "SquaredFinancial Logo",
+    "arrow": "arrow",
+    "gamma": "gamma"
+  },
+  "heroSection": {
+    "title": "Le tue condizioni.<br /> Ottimizzate",
+    "subtitle": "Operi già<br /> con un altro broker?",
+    "text": "Non ripartire da zero - adattiamo le tue condizioni con un bonus di benvenuto.",
+    "trust": "SquaredFinancial è valutato <strong>Eccellente</strong>",
+    "italicText": "\"SquaredFinancial leader con crescita eccezionale...\"",
+    "caption": "Premiato.<br /> Affidabile.<br /> Riconosciuto",
+    "tips": [
+      "Autorizzato e regolamentato<br class='hidden-mobile'/> per la tua protezione",
+      "Supporto multilingue<br class='hidden-mobile'/> 24/7",
+      "Piattaforme leader del settore:<br class='hidden-mobile'/> MT4 e MT5"
+    ]
+  },
+  "qualitiesSection": {
+    "title": "Perché cambiare?",
+    "subtitle": "Ecco cosa ottieni",
+    "cards": {
+      "0": {
+        "title": "Condizioni di trading<br />abbinate",
+        "text": [
+          "Tipo e dimensione del bonus",
+          "Leva e tipo di conto",
+          "Spread e commissioni"
+        ]
+      },
+      "1": {
+        "title": "+10-20%<br />bonus extra",
+        "text": ["Solo per passare a noi."]
+      },
+      "2": {
+        "title": "Supporto<br />personalizzato",
+        "text": [
+          "Un manager dedicato per aiutarti con il passaggio, verifica, finanziamento e trading."
+        ]
+      },
+      "3": {
+        "title": "Offerte VIP<br />su misura",
+        "text": [
+          "Condizioni personalizzate per trader con volumi elevati o depositi ingenti - discusse individualmente."
+        ]
+      }
+    }
+  },
+  "meritSection": {
+    "title": "Come funziona.<br />Veloce e semplice",
+    "cards": {
+      "0": {
+        "title": "Raccontaci la tua configurazione attuale",
+        "text": [
+          "Nome del broker",
+          "Bonus/leva/spread attuali",
+          "Deposito o volume approssimativo",
+          "(Opzionale: Screenshot o riepilogo conto)"
+        ]
+      },
+      "1": {
+        "title": "Creiamo la tua offerta personalizzata",
+        "text": ["Condizioni uguali o migliori - senza compromessi."]
+      },
+      "2": {
+        "title": "Registrati e passa facilmente",
+        "text": ["Ti aiuteremo con tutto - niente stress, solo risultati."]
+      }
+    }
+  },
+  "vipSection": {
+    "title": "Sei un trader VIP?",
+    "text": "Operi con grandi volumi o gestisci depositi consistenti?<br class='hidden-mobile' /><br class='hidden-mobile' /> Siamo pronti ad andare oltre le offerte standard. Parla direttamente con il nostro team per condizioni completamente personalizzate - migliori del tuo broker attuale."
+  },
+  "specSection": {
+    "title": "Perché SquaredFinancial",
+    "text": [
+      "<strong>anni</strong> <br />di esperienza",
+      "Spread da",
+      "<strong>pips</strong>",
+      "Leva fino a",
+      "velocità di esecuzione",
+      "valutato dai trader",
+      "strumenti",
+      "supporto clienti"
+    ]
+  },
+  "tradesSection": {
+    "title": "Opera di più. <br class='hidden-desktop' />Ottieni di più",
+    "text": "Opera sul tuo conto verificato, <br />raggiungi gli obiettivi di volume e ricevi regali entusiasmanti.",
+    "cardTitles": ["Deposito minimo", "Regalo promozionale"],
+    "content": {
+      "1": {
+        "text": ["5 lotti", "Maglietta"]
+      },
+      "2": {
+        "text": ["25 lotti", "Auricolari<br />JBL"]
+      },
+      "3": {
+        "text": ["50 lotti", "Altoparlante<br />wireless JBL"]
+      },
+      "4": {
+        "text": ["100 lotti", "Smartwatch"]
+      },
+      "5": {
+        "text": ["200 lotti", "Telefono<br />(Android)"]
+      },
+      "6": {
+        "text": ["600 lotti", "iPhone"]
+      }
+    }
+  },
+  "questionsSection": {
+    "title": "Domande frequenti",
+    "questions": [
+      {
+        "question": "Devo depositare prima di ricevere un'offerta?",
+        "answer": "No. Riceverai prima la tua offerta personalizzata - deposita solo quando sei soddisfatto."
+      },
+      {
+        "question": "Di quale prova ho bisogno?",
+        "answer": "È sufficiente un semplice screenshot o estratto conto del trading."
+      },
+      {
+        "question": "Quanto tempo ci vuole per passare?",
+        "answer": "La maggior parte dei conti viene configurata in 1 giorno lavorativo, con pieno supporto."
+      }
+    ]
+  },
+  "keepSection": {
+    "title": "Tieni ciò che ti piace. <br />Opera con più",
+    "text": "Condizioni migliori, <br />supporto reale, <br />e un bonus di benvenuto."
+  },
+  "footer": {
+    "awards": {
+      "title": "Non fidarti solo della nostra parola",
+      "caption": "Premiato a livello internazionale per l'eccellenza",
+      "cards": {
+        "1": {
+          "title": "Miglior app mobile per trading",
+          "text": "Pan Finance"
+        },
+        "2": {
+          "title": "Miglior fornitore di azioni",
+          "text": "Global Brands Magazine"
+        },
+        "3": {
+          "title": "Miglior sicurezza dei fondi clienti",
+          "text": "Global Brands Magazine"
+        },
+        "4": {
+          "title": "Miglior broker CFD",
+          "text": "AtoZ Markets"
+        },
+        "5": {
+          "title": "Broker più affidabile",
+          "text": "World Finance"
+        },
+        "6": {
+          "title": "Miglior broker nell'esecuzione degli ordini",
+          "text": "Rankia Awards"
+        }
+      }
+    },
+    "contacts": {
+      "copyright": "© SquaredFinancial 2025. Tutti i diritti riservati.",
+      "findUs": "Trovalo su",
+      "address": "Commercial House 1, Office No.4, Eden Island, Mahe, Seychelles",
+      "contactUs": "Contattaci"
+    },
+    "disclaimers": {
+      "1": {
+        "title": "Avvertenza sui rischi:",
+        "text": "Il trading con prodotti con leva comporta un rischio significativo e può comportare la perdita del capitale investito."
+      },
+      "2": {
+        "title": "Dichiarazioni di non responsabilità:",
+        "text": "Il sito web non è destinato a offrire servizi di investimento a cittadini di determinate giurisdizioni come Stati membri UE/SEE, Regno Unito, Stati Uniti, Canada, Australia, Nuova Zelanda, paesi elencati nel FATF tra cui, tra gli altri, Iran, Corea del Nord e Myanmar (Birmania). Devi avere 18 anni o l'età legale così come determinato nel tuo paese per registrare un account."
+      },
+      "3": {
+        "title": "Legale:",
+        "text": "Questo sito web è gestito da SQ Sey Ltd, una società autorizzata e regolamentata come Operatore di Valori Mobiliari dall'Autorità dei Servizi Finanziari delle Seychelles con numero di licenza SD024."
+      }
+    }
+  }
+}

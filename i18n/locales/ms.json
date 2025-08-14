@@ -1,0 +1,238 @@
+{
+  "common": {
+    "btnStart": "Mula Berdagang Sekarang",
+    "btnRequest": "Minta Tawaran Saya Sekarang",
+    "btnGet": "Dapatkan Tawaran Peribadi Saya",
+    "btnUpgrade": "Minta Naik Taraf Anda",
+    "TNC": "Terma & Syarat dikenakan",
+    "trust": "SquaredFinancial dinilai <strong>Cemerlang</strong>",
+    "form": {
+      "header": "Minta tawaran anda",
+      "name": "Nama penuh",
+      "country": "Negara tempat tinggal",
+      "searchCountry": "Cari negara...",
+      "email": "Emel",
+      "phone": "Telefon",
+      "comment": "Terangkan setup anda",
+      "commentTooltip": "• Nama broker<br />• Bonus / leverage / spread semasa<br />• Anggaran deposit atau volum",
+      "formError": {
+        "title": "Ralat berlaku",
+        "text": "Sila hantar semula maklumat anda atau hubungi Sokongan Pelanggan.",
+        "button": "OK"
+      }
+    },
+    "error": {
+      "emailRequired": "Emel diperlukan",
+      "emailInvalid": "Sila masukkan emel yang sah",
+      "emailRegistered": "Emel yang anda masukkan sudah didaftarkan.",
+      "nameRequired": "Nama penuh diperlukan",
+      "nameTooShort": "Nama penuh mesti sekurang-kurangnya 3 aksara",
+      "nameTooLong": "Nama penuh mesti kurang daripada 100 aksara",
+      "namePartTooShort": "Setiap bahagian nama mesti sekurang-kurangnya 2 aksara",
+      "fullNameRequired": "Nama penuh diperlukan",
+      "nameInvalidCharacters": "Nama hanya boleh mengandungi aksara Latin",
+      "phoneRequired": "Telefon diperlukan",
+      "phoneInvalid": "Sila masukkan nombor telefon yang sah",
+      "phoneRegistered": "Nombor telefon yang anda masukkan sudah didaftarkan.",
+      "commentRequired": "Komen diperlukan",
+      "commentTooLong": "Komen mesti kurang daripada 500 aksara"
+    },
+    "success": {
+      "title": "Anda Hebat!",
+      "subtitle": "Terima kasih atas minat anda!",
+      "text": "Kami telah menerima permohonan anda. <br />Anda boleh mengharapkan maklum balas daripada kami dalam beberapa jam akan datang melalui emel, telefon atau WhatsApp. <br /><br />Kami berharap dapat bekerjasama dengan anda!"
+    }
+  },
+  "meta": {
+    "title": "Syarat Dagangan Anda, Hanya Lebih Baik | SquaredFinancial",
+    "description": "Berurus niaga dengan yakin di bawah syarat yang adil dan telus. Nikmati harga lebih baik, pelaksanaan pantas, sokongan peribadi dan bonus disesuaikan - dibina untuk peniaga yang mengharapkan lebih."
+  },
+  "alt": {
+    "logo": "squared logo",
+    "logo2": "SquaredFinancial Logo",
+    "arrow": "arrow",
+    "gamma": "gamma"
+  },
+  "heroSection": {
+    "title": "Syarat Anda.<br /> Hanya Lebih Baik",
+    "subtitle": "Sudah berurus niaga<br /> dengan broker lain?",
+    "text": "Jangan bermula dari awal - kami akan padankan syarat tepat anda dan tambahkan bonus untuk bertukar.",
+    "trust": "SquaredFinancial dinilai <strong>Cemerlang</strong>",
+    "italicText": "\"SquaredFinancial memimpin dengan pertumbuhan luar biasa...\"",
+    "caption": "Dianugerahkan.<br /> Dipercayai.<br /> Diiktiraf",
+    "tips": [
+      "Berlesen & Dikawal Selia<br class='hidden-mobile'/> untuk perlindungan anda",
+      "Sokongan Pelbagai Bahasa<br class='hidden-mobile'/> 24/7",
+      "Platform terkemuka industri:<br class='hidden-mobile'/> MT4 & MT5"
+    ]
+  },
+  "qualitiesSection": {
+    "title": "Mengapa Bertukar?",
+    "subtitle": "Ini Yang Anda Dapat",
+    "cards": {
+      "0": {
+        "title": "Syarat Dagangan<br />Yang Dipadankan",
+        "text": [
+          "Jenis & saiz bonus",
+          "Leveraj & jenis akaun",
+          "Spread & Komisen"
+        ]
+      },
+      "1": {
+        "title": "+10-20%<br />Bonus Tambahan",
+        "text": ["Hanya untuk berpindah kepada kami."]
+      },
+      "2": {
+        "title": "Sokongan<br />Peribadi",
+        "text": [
+          "Pengurus khusus untuk membantu anda bertukar, pengesahan, pembiayaan dan urus niaga."
+        ]
+      },
+      "3": {
+        "title": "Tawaran VIP<br />Disesuaikan",
+        "text": [
+          "Syarat khusus untuk peniaga volum tinggi atau deposit besar - dibincangkan secara individu."
+        ]
+      }
+    }
+  },
+  "meritSection": {
+    "title": "Bagaimana Ia Berfungsi.<br />Pantas dan Mudah",
+    "cards": {
+      "0": {
+        "title": "Beritahu kami tentang persediaan semasa anda",
+        "text": [
+          "Nama broker",
+          "Bonus/leveraj/spread semasa",
+          "Deposit atau volum anggaran",
+          "(Pilihan: Tangkapan skrin atau ringkasan akaun)"
+        ]
+      },
+      "1": {
+        "title": "Kami bina tawaran khusus anda",
+        "text": ["Syarat yang sama atau lebih baik - tiada kompromi."]
+      },
+      "2": {
+        "title": "Daftar dan bertukar dengan mudah",
+        "text": [
+          "Kami akan bantu dengan segala-galanya - tiada tekanan, hanya hasil."
+        ]
+      }
+    }
+  },
+  "vipSection": {
+    "title": "Adakah Anda Peniaga VIP?",
+    "text": "Berurus niaga dengan volum besar atau mengurus deposit besar?<br class='hidden-mobile' /><br class='hidden-mobile' /> Kami bersedia melangkaui tawaran standard. Bercakap terus dengan pasukan kami untuk syarat yang disesuaikan sepenuhnya - lebih baik daripada broker semasa anda."
+  },
+  "specSection": {
+    "title": "Mengapa SquaredFinancial",
+    "text": [
+      "<strong>tahun</strong> <br />pengalaman",
+      "Spread dari",
+      "<strong>pip</strong>",
+      "Leveraj sehingga",
+      "kelajuan pelaksanaan",
+      "dinilai oleh peniaga",
+      "instrumen",
+      "sokongan pelanggan"
+    ]
+  },
+  "tradesSection": {
+    "title": "Berurus Niaga Lebih. <br class='hidden-desktop' />Dapatkan Lebih",
+    "text": "Berurus niaga pada akaun disahkan anda, <br />capai sasaran volum dan terima hadiah menarik.",
+    "cardTitles": ["Deposit minimum", "Hadiah promosi"],
+    "content": {
+      "1": {
+        "text": ["5 lot", "Kemeja-T"]
+      },
+      "2": {
+        "text": ["25 lot", "Ear Buds<br />JBL"]
+      },
+      "3": {
+        "text": ["50 lot", "Pembesar Suara<br />Wayarles JBL"]
+      },
+      "4": {
+        "text": ["100 lot", "Jam Tangan Pintar"]
+      },
+      "5": {
+        "text": ["200 lot", "Telefon<br />(Android)"]
+      },
+      "6": {
+        "text": ["600 lot", "iPhone"]
+      }
+    }
+  },
+  "questionsSection": {
+    "title": "Soalan Lazim",
+    "questions": [
+      {
+        "question": "Adakah saya perlu deposit sebelum menerima tawaran?",
+        "answer": "Tidak. Anda akan menerima tawaran peribadi anda dahulu - deposit hanya apabila anda berpuas hati."
+      },
+      {
+        "question": "Apakah jenis bukti yang saya perlukan?",
+        "answer": "Tangkapan skrin ringkas atau penyata dagangan sudah memadai."
+      },
+      {
+        "question": "Berapa lama masa yang diambil untuk bertukar?",
+        "answer": "Kebanyakan akaun disediakan dalam 1 hari bekerja, dengan sokongan penuh."
+      }
+    ]
+  },
+  "keepSection": {
+    "title": "Simpan Apa Yang Anda Suka. <br />Berurus Niaga Dengan Lebih",
+    "text": "Syarat lebih baik, <br />sokongan sebenar, <br />dan bonus sambutan."
+  },
+  "footer": {
+    "awards": {
+      "title": "Jangan hanya percaya kata kami",
+      "caption": "Dianugerahkan antarabangsa untuk kecemerlangan",
+      "cards": {
+        "1": {
+          "title": "Aplikasi Dagangan Mudah Alih Terbaik",
+          "text": "Pan Finance"
+        },
+        "2": {
+          "title": "Pembekal Saham Terbaik",
+          "text": "Global Brands Magazine"
+        },
+        "3": {
+          "title": "Keselamatan Dana Pelanggan Terbaik",
+          "text": "Global Brands Magazine"
+        },
+        "4": {
+          "title": "Broker CFD Terbaik",
+          "text": "AtoZ Markets"
+        },
+        "5": {
+          "title": "Broker Paling Boleh Dipercayai",
+          "text": "World Finance"
+        },
+        "6": {
+          "title": "Broker Terbaik dalam Pelaksanaan Pesanan",
+          "text": "Rankia Awards"
+        }
+      }
+    },
+    "contacts": {
+      "copyright": "© SquaredFinancial 2025. Hak cipta terpelihara.",
+      "findUs": "Cari kami di",
+      "address": "Commercial House 1, Office No.4, Eden Island, Mahe, Seychelles",
+      "contactUs": "Hubungi Kami"
+    },
+    "disclaimers": {
+      "1": {
+        "title": "Amaran risiko:",
+        "text": "Berurus niaga dengan produk berleveraj melibatkan risiko yang signifikan dan boleh mengakibatkan kehilangan modal yang dilaburkan."
+      },
+      "2": {
+        "title": "Penafian:",
+        "text": "Laman web ini tidak bertujuan untuk menawarkan perkhidmatan pelaburan kepada warganegara bidang kuasa tertentu seperti negara anggota EU/EEA, UK, AS, Kanada, Australia, New Zealand, negara yang disenaraikan FATF termasuk, antara lain, Iran, Korea Utara, dan Myanmar (Burma). Anda mestilah berumur 18 tahun, atau umur sah mengikut negara anda untuk mendaftar akaun."
+      },
+      "3": {
+        "title": "Perundangan:",
+        "text": "Laman web ini dikendalikan oleh SQ Sey Ltd, syarikat yang diberi kuasa dan dikawal selia sebagai Peniaga Sekuriti oleh Otoriti Perkhidmatan Kewangan Seychelles dengan nombor lesen SD024."
+      }
+    }
+  }
+}
