@@ -187,18 +187,19 @@ onUnmounted(() => {
     }
 
     .content {
-      margin-top: em(52);
+      margin-top: em(44);
 
       @include media-breakpoint-down(sm) {
-        margin-top: em(24);
+        margin-top: em(16);
       }
 
       .title {
         text-align: center;
         background: linear-gradient(273deg, #608ceb 6.46%, #040714 95.55%);
+        color: transparent;
         background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        background-size: cover;
+        padding-top: em(8);
         padding-bottom: em(8);
 
         span {
