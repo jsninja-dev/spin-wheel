@@ -20,7 +20,6 @@ watch(isSpinning, async (newVal) => {
   if (!newVal) return;
   if (props.wheelType === 'active') {
     await spinWheel(); // Wait for the animation to finish
-    store.setIsSpinning(false);
   }
 });
 
@@ -54,9 +53,7 @@ async function spinWheel() {
       posRandom <
       prizes.slice(0, i + 1).reduce((acc, curr) => acc + curr.possibility, 0)
     ) {
-      degRandom =
-        prizes[i].min +
-        Math.floor(Math.random() * (prizes[i].max - prizes[i].min));
+      degRandom = prizes[i].pos;
       prize.value = prizes[i];
       break;
     }
@@ -86,6 +83,7 @@ async function spinWheel() {
 
       setTimeout(() => {
         isFormOpen.value = true;
+        store.setIsSpinning(false);
       }, 800);
       resolve();
     };

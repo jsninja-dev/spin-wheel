@@ -281,6 +281,7 @@ const { scrollToWheel } = useScroll();
 
             @include media-breakpoint-down(sm) {
               width: em(102);
+              height: em(27);
             }
           }
 
@@ -290,6 +291,7 @@ const { scrollToWheel } = useScroll();
 
             @include media-breakpoint-down(sm) {
               width: em(141);
+              height: em(28);
             }
           }
         }
