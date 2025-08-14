@@ -39,6 +39,7 @@ async function spinWheel() {
   // Check if user can still spin
   if (!canSpin.value) {
     isErrorOpen.value = true;
+    store.setIsSpinning(false);
     return;
   }
 
