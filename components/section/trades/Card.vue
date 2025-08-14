@@ -101,7 +101,7 @@ defineProps({
     right: 0;
 
     @include media-breakpoint-down(sm) {
-      transform: scale(0.37);
+      transform: scale(0.3);
       transform-origin: bottom right;
     }
 
@@ -111,7 +111,7 @@ defineProps({
       transform: scaleX(-1);
 
       @include media-breakpoint-down(sm) {
-        transform: scaleX(-0.37) scaleY(0.37) translate(-100%, 0%);
+        transform: scaleX(-0.3) scaleY(0.3) translate(-100%, 0%);
         transform-origin: bottom left;
       }
     }
@@ -187,7 +187,7 @@ defineProps({
       line-height: 100%;
 
       @include media-breakpoint-down(sm) {
-        font-size: em(25);
+        font-size: em(24);
       }
     }
   }
