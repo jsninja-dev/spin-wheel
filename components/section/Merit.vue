@@ -238,10 +238,11 @@ onUnmounted(() => {
 
         @include media-breakpoint-down(sm) {
           height: auto;
-          padding: em(24) em(64) 0;
+          padding: em(24) em(60) 0;
         }
 
         .heading {
+          padding-bottom: em(10);
           @include media-breakpoint-down(sm) {
             text-align: center;
           }
@@ -275,7 +276,8 @@ onUnmounted(() => {
         padding: em(60) em(40) em(36);
 
         @include media-breakpoint-down(sm) {
-          padding: em(20) em(20) em(24);
+          padding: em(10) em(20) em(24) em(20);
+          text-align: center;
         }
 
         .text {
@@ -311,6 +313,16 @@ onUnmounted(() => {
             gap: em(4);
             margin-top: em(12);
             margin-bottom: 0;
+          }
+
+          html[dir='rtl'] & {
+            margin-left: auto;
+            display: inline-flex;
+            flex-direction: row-reverse;
+
+            @include media-breakpoint-down(sm) {
+              margin-inline: auto;
+            }
           }
 
           .time {

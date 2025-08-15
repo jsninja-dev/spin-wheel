@@ -274,6 +274,12 @@ function handleSpin() {
           margin-top: em(-12);
         }
 
+        html[dir='rtl'] & {
+          text-align: right;
+          padding-left: em(84);
+          padding-right: em(56);
+        }
+
         .item-1 {
           font-size: em(14);
           font-weight: $font-weight-medium;

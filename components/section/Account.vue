@@ -160,14 +160,24 @@ onUnmounted(() => {
       width: 100%;
       height: 100%;
       z-index: -1;
+
+      html[dir='rtl'] & {
+        transform: scaleX(-1);
+      }
     }
 
     .heading {
       position: absolute;
       top: 50%;
       left: em(54);
-      width: em(320);
+      width: em(372);
       transform: translateY(-50%);
+      padding-bottom: em(10);
+
+      html[dir='rtl'] & {
+        left: auto;
+        right: em(54);
+      }
 
       .heading-text {
         font-size: em(96);
@@ -179,6 +189,11 @@ onUnmounted(() => {
         width: em(50);
         height: em(50);
         margin-left: em(8);
+
+        html[dir='rtl'] & {
+          margin-left: 0;
+          margin-right: em(8);
+        }
       }
     }
 
@@ -199,6 +214,12 @@ onUnmounted(() => {
         gap: em(4);
         margin-top: em(12);
         margin-bottom: 0;
+      }
+
+      html[dir='rtl'] & {
+        right: auto;
+        left: em(42);
+        flex-direction: row-reverse;
       }
 
       .time {

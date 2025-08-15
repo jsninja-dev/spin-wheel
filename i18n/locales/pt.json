@@ -1,51 +1,45 @@
 {
   "common": {
     "btnStart": "Comece a negociar agora",
-    "btnRequest": "Solicite minha oferta agora",
-    "btnGet": "Obtenha minha oferta personalizada",
-    "btnUpgrade": "Solicite seu upgrade",
+    "btnSpin": "Gire agora",
     "TNC": "Aplicam-se T&C",
-    "trust": "SquaredFinancial é avaliado como <strong>Excelente</strong>",
+    "hours": "HORAS",
+    "mins": "MIN",
+    "secs": "SEG",
+    "wheel": {
+      "spin": "Gire<br />agora",
+      "prizes": [
+        "<strong>Sessão 1:1</strong><br />com nosso Analista",
+        "14 dias<br /> <strong>sem swap</strong>",
+        "Boost de<br />pontos de fidelidade",
+        "Prêmio misterioso",
+        "Bônus de 25% no primeiro depósito",
+        "Mais giros",
+        "100% bônus no primeiro depósito e 50% bônus no redepósito",
+        "VPS grátis"
+      ]
+    },
+    "spinError": {
+      "title": "Sem mais giros hoje!",
+      "text": "Tente amanhã.",
+      "button": "OK"
+    },
     "form": {
-      "header": "Solicite sua oferta",
-      "name": "Nome completo",
-      "country": "País de residência",
-      "searchCountry": "Pesquisar país...",
-      "email": "E-mail",
-      "phone": "Telefone",
-      "comment": "Descreva sua configuração",
-      "commentTooltip": "• Nome do corretor<br />• Bônus / alavancagem / spreads atuais<br />• Depósito aproximado ou volume",
-      "formError": {
-        "title": "Ocorreu um erro",
-        "text": "Reenvie suas informações ou entre em contato com o Suporte ao Cliente.",
-        "button": "OK"
-      }
-    },
-    "error": {
-      "emailRequired": "O e-mail é obrigatório",
-      "emailInvalid": "Digite um e-mail válido",
-      "emailRegistered": "O e-mail digitado já está registrado.",
-      "nameRequired": "O nome completo é obrigatório",
-      "nameTooShort": "O nome deve ter pelo menos 3 caracteres",
-      "nameTooLong": "O nome deve ter menos de 100 caracteres",
-      "namePartTooShort": "Cada parte do nome deve ter pelo menos 2 caracteres",
-      "fullNameRequired": "O nome completo é obrigatório",
-      "nameInvalidCharacters": "O nome deve conter apenas caracteres latinos",
-      "phoneRequired": "O telefone é obrigatório",
-      "phoneInvalid": "Digite um número de telefone válido",
-      "phoneRegistered": "O número de telefone digitado já está registrado.",
-      "commentRequired": "O comentário é obrigatório",
-      "commentTooLong": "O comentário deve ter menos de 500 caracteres"
-    },
-    "success": {
-      "title": "Você é incrível!",
-      "subtitle": "Obrigado pelo seu interesse!",
-      "text": "Recebemos sua submissão. <br />Você pode esperar ouvir de nós nas próximas horas por email, telefone ou WhatsApp. <br /><br />Estamos ansiosos para trabalhar com você!"
+      "header": "Parabéns",
+      "text": "Você ganhou",
+      "title": {
+        "100bonus": "100% bônus no primeiro depósito e 50% bônus no redepósito",
+        "25bonus": "25% bônus no primeiro depósito",
+        "session": "Sessão 1:1 com nosso Analista"
+      },
+      "claimBtn": "Resgatar agora",
+      "spinBtn": "Girar novamente",
+      "spinLeft": "giros restantes"
     }
   },
   "meta": {
-    "title": "Suas condições de negociação, apenas melhores | SquaredFinancial",
-    "description": "Negocie com confiança sob condições justas e transparentes. Desfrute de melhores preços, execução rápida, suporte pessoal e bônus personalizados - criados para traders que esperam mais."
+    "title": "SquaredFinancial | Gire. Ganhe. – Bônus de Forex",
+    "description": "Gire, ganhe, use – ou se arrependa! Ganhe recompensas Forex instantâneas sem depósito: bônus de trading, pontos de fidelidade, trades sem risco e mais. Um giro pode mudar tudo!"
   },
   "alt": {
     "logo": "squared logo",
@@ -54,72 +48,63 @@
     "gamma": "gamma"
   },
   "heroSection": {
-    "title": "Seus termos.<br /> Melhorados",
-    "subtitle": "Já negocia<br /> com outra corretora?",
-    "text": "Não comece do zero - vamos igualar suas condições exatas e complementá-las com um bônus por mudar.",
-    "trust": "SquaredFinancial é avaliado como <strong>Excelente</strong>",
-    "italicText": "\"SquaredFinancial lidera com crescimento excepcional...\"",
-    "caption": "Premiado.<br /> Confiável.<br /> Reconhecido",
-    "tips": [
-      "Licenciado e regulamentado<br class='hidden-mobile'/> para sua proteção",
-      "Suporte multilíngue<br class='hidden-mobile'/> 24/7",
-      "Plataformas líderes do setor:<br class='hidden-mobile'/> MT4 e MT5"
-    ]
+    "title": "Gire. Ganhe. Aproveite.<br />Ou lamente",
+    "subtitle": "Um giro pode desbloquear<br class='hidden-mobile' /> sua próxima grande vitória!",
+    "trust": "SquaredFinancial avaliado como <strong>Excelente</strong>",
+    "caption": "Recompensas instantâneas.<br /> Sem depósito necessário",
+    "tips": ["Bônus de trading", "Pontos de fidelidade", "Trades sem risco"]
   },
   "qualitiesSection": {
-    "title": "Por que mudar?",
-    "subtitle": "Aqui está o que você ganha",
+    "title": "Como funciona",
+    "subtitle": "Obtenha bônus de trading, pontos de fidelidade, trades sem risco e mais.",
+    "trust": "Avaliação 4.4/5* por traders",
     "cards": {
       "0": {
-        "title": "Condições<br /> igualadas",
-        "text": ["Detalhes do bônus", "Conta e alavancagem", "Custos"]
+        "title": "Clique em \"Gire agora\"",
+        "text": "para girar a roda."
       },
       "1": {
-        "title": "+10-20%<br />Bônus extra",
-        "text": ["Apenas por mudar para nós."]
+        "title": "Gire e ganhe instantaneamente",
+        "text": "Cada giro garante um prêmio."
       },
       "2": {
-        "title": "Suporte<br />personalizado",
-        "text": [
-          "Um gerente dedicado para ajudá-lo com a mudança, verificação, financiamento e negociação."
-        ]
-      },
-      "3": {
-        "title": "Ofertas VIP<br />personalizadas",
-        "text": [
-          "Termos personalizados para traders de alto volume - discutidos individualmente."
-        ]
+        "title": "Resgate seu prêmio",
+        "text": "e siga as instruções."
       }
     }
+  },
+  "prizeSection": {
+    "title": "Prêmios disponíveis",
+    "subtitle": "Cada giro é uma vitória!",
+    "cards": [
+      "<strong>100%</strong><br /> bônus no 1º depósito<br /> <strong>50%</strong><br /> bônus no redepósito",
+      "<strong>Sessão 1 a 1</strong><br /> com nosso Analista",
+      "14 dias<br /> <strong>sem swap</strong>",
+      "Boost de<br /> <strong>pontos de fidelidade</strong>",
+      "<strong>VPS</strong> grátis",
+      "Ferramentas de<br /> <strong>trading exclusivas</strong>",
+      "Prêmio<br /> <strong>misterioso</strong>",
+      "Mais<br /> <strong>giros</strong>"
+    ]
   },
   "meritSection": {
-    "title": "Como funciona.<br />Rápido e simples",
     "cards": {
       "0": {
-        "title": "Conte-nos sobre sua configuração atual",
-        "text": [
-          "Nome da corretora",
-          "Bônus/alavancagem/spreads atuais",
-          "Depósito ou volume aproximado",
-          "(Opcional: Captura de tela ou resumo da conta)"
-        ]
+        "title": "Por tempo limitado",
+        "text": "Disponível apenas até"
       },
       "1": {
-        "title": "Criamos sua oferta personalizada",
-        "text": ["Condições iguais ou melhores - sem compromissos."]
-      },
-      "2": {
-        "title": "Registre-se e mude facilmente",
-        "text": ["Ajudaremos com tudo - sem estresse, apenas resultados."]
+        "title": "Sem depósito necessário",
+        "text": "Gire grátis, só precisa de conta.<br class='hidden-mobile' /> Novo na plataforma?",
+        "subtitle": "Gire. Cadastre-se. Ganhe.<br class='hidden-desktop' /> Simples assim."
       }
     }
   },
-  "vipSection": {
-    "title": "Você é um trader VIP?",
-    "text": "Negocia grandes volumes ou gerencia grandes depósitos?<br class='hidden-mobile' /><br class='hidden-mobile' /> Estamos prontos para ir além das ofertas padrão. Fale diretamente com nossa equipe para condições totalmente personalizadas - melhores que sua corretora atual."
+  "accountSection": {
+    "title": "Todo giro vence"
   },
   "specSection": {
-    "title": "Por que SquaredFinancial",
+    "title": "Por que nos escolher",
     "text": [
       "<strong>anos</strong> <br />de experiência",
       "Spreads a partir de",
@@ -132,21 +117,21 @@
     ]
   },
   "tradesSection": {
-    "title": "Negocie mais. <br class='hidden-desktop' />Ganhe mais",
-    "text": "Negocie em sua conta verificada, <br />atinga as metas de volume e receba presentes emocionantes.",
-    "cardTitles": ["Depósito mínimo", "Presente promocional"],
+    "title": "Negocie mais.<br class='hidden-desktop' /> Ganhe mais",
+    "text": "Negocie em sua conta verificada,<br class='hidden-mobile' /> atinja volumes e ganhe prêmios.",
+    "cardTitles": ["Depósito mínimo", "Prêmio promocional"],
     "content": {
       "1": {
         "text": ["5 lotes", "Camiseta"]
       },
       "2": {
-        "text": ["25 lotes", "Fones de ouvido<br />JBL"]
+        "text": ["25 lotes", "Fones<br />JBL"]
       },
       "3": {
-        "text": ["50 lotes", "Caixa de som<br />sem fio JBL"]
+        "text": ["50 lotes", "Caixa de<br />som JBL"]
       },
       "4": {
-        "text": ["100 lotes", "Smartwatch"]
+        "text": ["100 lotes", "Smart<br />watch"]
       },
       "5": {
         "text": ["200 lotes", "Celular<br />(Android)"]
@@ -156,54 +141,33 @@
       }
     }
   },
-  "questionsSection": {
-    "title": "Perguntas frequentes",
-    "questions": [
-      {
-        "question": "Preciso depositar antes de receber uma oferta?",
-        "answer": "Não. Você receberá sua oferta personalizada primeiro - deposite apenas quando estiver satisfeito."
-      },
-      {
-        "question": "Que tipo de prova eu preciso?",
-        "answer": "Uma simples captura de tela ou extrato de negociação é suficiente."
-      },
-      {
-        "question": "Quanto tempo leva para mudar?",
-        "answer": "A maioria das contas é configurada em 1 dia útil, com suporte completo."
-      }
-    ]
-  },
-  "keepSection": {
-    "title": "Mantenha o que você gosta. <br />Negocie com mais",
-    "text": "Melhores condições, <br />suporte real, <br />e um bônus de boas-vindas."
-  },
   "footer": {
     "awards": {
-      "title": "Não acredite apenas na nossa palavra",
-      "caption": "Premiado internacionalmente por excelência",
+      "title": "Não acredite apenas em nós",
+      "caption": "Premiado internacionalmente",
       "cards": {
         "1": {
-          "title": "Melhor aplicativo móvel de negociação",
+          "title": "Melhor App de Trading",
           "text": "Pan Finance"
         },
         "2": {
-          "title": "Melhor provedor de ações",
+          "title": "Melhor Fornecedor de Ações",
           "text": "Global Brands Magazine"
         },
         "3": {
-          "title": "Melhor segurança de fundos de clientes",
+          "title": "Melhor Segurança de Fundos",
           "text": "Global Brands Magazine"
         },
         "4": {
-          "title": "Melhor corretora de CFDs",
+          "title": "Melhor Broker de CFDs",
           "text": "AtoZ Markets"
         },
         "5": {
-          "title": "Corretora mais confiável",
+          "title": "Broker Mais Confiável",
           "text": "World Finance"
         },
         "6": {
-          "title": "Melhor corretora em execução de ordens",
+          "title": "Melhor Execução de Ordens",
           "text": "Rankia Awards"
         }
       }
@@ -212,20 +176,20 @@
       "copyright": "© SquaredFinancial 2025. Todos os direitos reservados.",
       "findUs": "Encontre-nos em",
       "address": "Commercial House 1, Office No.4, Eden Island, Mahe, Seychelles",
-      "contactUs": "Contate-nos"
+      "contactUs": "Fale Conosco"
     },
     "disclaimers": {
       "1": {
         "title": "Aviso de risco:",
-        "text": "Negociar produtos alavancados envolve um risco significativo e pode resultar na perda do seu capital investido."
+        "text": "Negociar com alavancagem envolve alto risco e pode resultar em perdas."
       },
       "2": {
-        "title": "Isenções de responsabilidade:",
-        "text": "O site não se destina a oferecer serviços de investimento a cidadãos de certas jurisdições como estados membros da UE/EEE, Reino Unido, EUA, Canadá, Austrália, Nova Zelândia, países listados no FATF incluindo, entre outros, Irã, Coreia do Norte e Mianmar (Birmânia). Você deve ter 18 anos de idade, ou a idade legal conforme determinado em seu país para registrar uma conta."
+        "title": "Isenção de responsabilidade:",
+        "text": "Este site não oferece serviços a cidadãos de certas jurisdições (UE/EEE, UK, USA, Canadá, Austrália, NZ, países FATF como Irã, Coreia do Norte, Myanmar). Você deve ter 18+ anos."
       },
       "3": {
         "title": "Legal:",
-        "text": "Este site é operado por SQ Sey Ltd, uma empresa autorizada e regulamentada como Distribuidora de Valores Mobiliários pela Autoridade de Serviços Financeiros das Seychelles com número de licença SD024."
+        "text": "Operado por SQ Sey Ltd, regulada pela FSA Seychelles (Licença SD024)."
       }
     }
   }

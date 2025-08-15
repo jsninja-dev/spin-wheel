@@ -33,6 +33,10 @@ const props = defineProps({
     @include media-breakpoint-down(sm) {
       color: $color-white;
     }
+
+    html[dir='rtl'] & {
+      background: linear-gradient(233deg, #c5cbd5 13.85%, #0051ff 135.38%);
+    }
   }
   &__2 {
     background: $color-grey-100;
@@ -55,6 +59,10 @@ const props = defineProps({
   &__7 {
     background: linear-gradient(231deg, #c5cbd5 19.56%, #0051ff 150.29%);
     color: $color-white;
+
+    html[dir='rtl'] & {
+      background: linear-gradient(129deg, #c5cbd5 19.56%, #0051ff 150.29%);
+    }
   }
 
   .content {

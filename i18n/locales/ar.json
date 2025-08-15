@@ -1,207 +1,195 @@
 {
   "common": {
-    "btnStart": "Start Trading Now",
-    "btnSpin": "Spin Now",
-    "TNC": "T&Cs apply",
-    "hours": "HOURS",
-    "mins": "MINS",
-    "secs": "SECS",
+    "btnStart": "ابدأ التداول الآن",
+    "btnSpin": "قم بالتدوير الآن",
+    "TNC": "الشروط والأحكام تنطبق",
+    "hours": "ساعات",
+    "mins": "دقائق",
+    "secs": "ثواني",
     "wheel": {
-      "spin": "Spin<br />Now",
+      "spin": "ادور الآن",
       "prizes": [
-        "<strong>1 on 1</strong><br />Session with our Chief Market Analyst",
-        "14 Days<br /> <strong>Swap-Free</strong>",
-        "Loyalty<br />Points Boost",
-        "Mystery Gift",
-        "25% First-Time Deposit Bonus",
-        "More Spins",
-        "100% First-Time<br /> Deposit & 50%<br /> Redeposit Bonus",
-        "Free VPS"
+        "<strong>جلسة 1 على 1</strong><br />مع كبير محللي السوق لدينا",
+        "14 يومًا<br /> <strong>بدون مقايضة</strong>",
+        "تعزيز<br />نقاط الولاء",
+        "هدية غامضة",
+        "25% مكافأة إيداع أول مرة",
+        "دورات إضافية",
+        "<strong>100%</strong> مكافأة أول إيداع <strong>50%</strong> مكافأة إعادة إيداع",
+        "خادم VPS مجاني"
       ]
     },
     "spinError": {
-      "title": "No more spins for today!",
-      "text": "Please try again tomorrow.",
-      "button": "OK"
+      "title": "لا مزيد من المحاولات لليوم!",
+      "text": "يرجى المحاولة مرة أخرى غدًا.",
+      "button": "موافق"
     },
     "form": {
-      "header": "Congratulations",
-      "text": "You Won",
+      "header": "تهانينا",
+      "text": "لقد فزت",
       "title": {
-        "100bonus": "100% Bonus",
-        "25bonus": "25% First-Time Deposit Bonus",
-        "session": "1-1 Session"
+        "100bonus": "100% مكافأة أول إيداع 50% مكافأة إعادة إيداع",
+        "25bonus": "25% مكافأة إيداع أول مرة",
+        "session": "جلسة 1 على 1 مع كبير محللي السوق لدينا"
       },
-      "claimBtn": "Claim Now",
-      "spinBtn": "Spin Again",
-      "spinLeft": "spins left"
+      "claimBtn": "المطالبة الآن",
+      "spinBtn": "اعيد التدوير",
+      "spinLeft": "محاولات متبقية"
     }
   },
-
   "meta": {
-    "title": "SquaredFinancial | Spin It. Win It. – Forex Bonuses & Rewards",
-    "description": "Spin it, win it, use it – or regret it! Get instant Forex rewards with no deposit required: trading bonuses, loyalty points, risk-free trades, and more. One spin could unlock your next big win!"
+    "title": "SquaredFinancial | قم بالتدوير. اربح. – مكافآت وعروض الفوركس",
+    "description": "قم بالتدوير، اربح، استخدم – أو ندم! احصل على مكافآت فوركس فورية بدون إيداع: مكافآت تداول، نقاط ولاء، صفقات بدون مخاطر، والمزيد. تدويرة واحدة قد تفتح لك الفوز الكبير التالي!"
   },
-
   "alt": {
     "logo": "squared logo",
     "logo2": "SquaredFinancial Logo",
     "arrow": "arrow",
     "gamma": "gamma"
   },
-
   "heroSection": {
-    "title": "Spin It. Win It. Use It.<br />Or Regret It",
-    "subtitle": "One spin could unlock your<br class='hidden-mobile' /> next big win!",
-    "trust": "SquaredFinancial is rated <strong>Excellent</strong>",
-    "caption": "Get Instant Rewards.<br /> No Deposit Required",
-    "tips": ["Trading bonuses", "Loyalty points", "Risk-free trades"]
+    "title": "قم بالتدوير. اربح. استخدم.<br />أو ندم",
+    "subtitle": "تدويرة واحدة قد تفتح لك<br class='hidden-mobile' /> الفوز الكبير التالي!",
+    "trust": "تم تقييم SquaredFinancial <strong>بممتاز</strong>",
+    "caption": "احصل على مكافآت فورية.<br /> بدون إيداع مطلوب",
+    "tips": ["مكافآت تداول", "نقاط ولاء", "صفقات بدون مخاطر"]
   },
-
   "qualitiesSection": {
-    "title": "How It Works",
-    "subtitle": "Grab trading bonuses, loyalty points, risk-free trades, and more.",
-    "trust": "4.4/5* rated by traders",
+    "title": "كيف تعمل",
+    "subtitle": "احصل على مكافآت تداول، نقاط ولاء، صفقات بدون مخاطر، والمزيد.",
+    "trust": "تقييم 4.4/5* من المتداولين",
     "cards": {
       "0": {
-        "title": "Click “Spin Now”",
-        "text": "to launch the wheel."
+        "title": "انقر على \"قم بالتدوير الآن\"",
+        "text": "لبدء العجلة."
       },
       "1": {
-        "title": "Spin & win instantly",
-        "text": "Every spin guarantees a prize."
+        "title": "قم بالتدوير واربح فورًا",
+        "text": "كل تدويرة تضمن لك جائزة."
       },
       "2": {
-        "title": "Claim your reward ",
-        "text": "and follow the instructions to use it."
+        "title": "اطلب مكافأتك",
+        "text": "واتبع التعليمات لاستخدامها."
       }
     }
   },
-
   "prizeSection": {
-    "title": "Prizes You Can Win",
-    "subtitle": "Every spin is a win!",
+    "title": "الجوائز التي يمكنك الفوز بها",
+    "subtitle": "كل تدويرة هي فوز!",
     "cards": [
-      "<strong>100%</strong><br /> First-Time Deposit<br /> and<br /> <strong>50%</strong><br /> Redeposit Bonus",
-      "<strong>1 on 1 Session</strong><br /> with our Chief Market Analyst",
-      "14 Days<br /> <strong>Swap-Free</strong>",
-      "Loyalty<br /> <strong>Points Boost</strong>",
-      "Free<br /> <strong>VPS</strong>",
-      "Exclusive<br /> <strong>Trading Tools</strong>",
-      "Mystery<br /> <strong>Gift</strong>",
-      "More<br /> <strong>Spins</strong>"
+      "<strong>100%</strong><br /> مكافأة إيداع أول مرة<br /> و<br /> <strong>50%</strong><br /> مكافأة إعادة إيداع",
+      "<strong>جلسة 1 على 1</strong><br /> مع كبير محللي السوق لدينا",
+      "14 يومًا<br /> <strong>بدون مقايضة</strong>",
+      "تعزيز<br /> <strong>نقاط الولاء</strong>",
+      "<strong>VPS</strong> مجاني",
+      "أدوات<br /> <strong>تداول حصرية</strong>",
+      "هدية<br /> <strong>غامضة</strong>",
+      "المزيد من<br /> <strong>المحاولات</strong>"
     ]
   },
-
   "meritSection": {
     "cards": {
       "0": {
-        "title": "Limited-Time Offer",
-        "text": "Don’t miss out – the wheel is only available until"
+        "title": "عرض محدود الوقت",
+        "text": "لا تفوت الفرصة – العجلة متاحة فقط حتى"
       },
       "1": {
-        "title": "No Deposit Needed",
-        "text": "It’s free to spin – all you need is an account.<br class='hidden-mobile' /> New to our platform?",
-        "subtitle": "Spin. Register. Win. It’s that simple."
+        "title": "لا حاجة للإيداع",
+        "text": "التدويرة مجانية – كل ما تحتاجه هو حساب.<br class='hidden-mobile' /> جديد على منصتنا؟",
+        "subtitle": "قم بالتدوير. سجل. اربح.<br class='hidden-desktop' /> الأمر بهذه البساطة."
       }
     }
   },
-
   "accountSection": {
-    "title": "Every spin is a win"
+    "title": "كل تدويرة هي فوز"
   },
-
   "specSection": {
-    "title": "Why Traders Choose Us",
+    "title": "لماذا يختارنا المتداولون",
     "text": [
-      "<strong>years</strong> <br />of experience",
-      "Spreads from",
-      "<strong>pips</strong>",
-      "Leverage up to",
-      "execution speed",
-      "rated by traders",
-      "instruments",
-      "customer support"
+      "<strong>سنوات</strong> <br />من الخبرة",
+      "سبريد يبدأ من",
+      "<strong>نقاط</strong>",
+      "رافعة مالية تصل إلى",
+      "سرعة تنفيذ",
+      "تقييم المتداولين",
+      "أدوات",
+      "دعم العملاء"
     ]
   },
-
   "tradesSection": {
-    "title": "Trade More. <br class='hidden-desktop' />Get More",
-    "text": "Trade on your verified account, <br />hit the volume targets, and receive exciting gifts.",
-    "cardTitles": ["Minimum deposit", "Promo gift"],
+    "title": "تداول أكثر.<br class='hidden-desktop' /> احصل على المزيد",
+    "text": "تداول على حسابك الموثق،<br class='hidden-mobile' /> حقق أهداف الحجم، واحصل على هدايا مثيرة.",
+    "cardTitles": ["الحد الأدنى للإيداع", "هدية الترويج"],
     "content": {
       "1": {
-        "text": ["5 lots", "T-Shirt"]
+        "text": ["5 لوت", "تي شيرت"]
       },
       "2": {
-        "text": ["25 lots", "JBL Ear <br />Buds"]
+        "text": ["25 لوت", "سماعات<br />JBL"]
       },
       "3": {
-        "text": ["50 lots", "JBL Wireless <br />Speaker"]
+        "text": ["50 لوت", "سماعة لاسلكية<br />JBL"]
       },
       "4": {
-        "text": ["100 lots", "Smart<br class=hidden-desktop />watch"]
+        "text": ["100 لوت", "ساعة<br />ذكية"]
       },
       "5": {
-        "text": ["200 lots", "Phone<br />(Android)"]
+        "text": ["200 لوت", "هاتف<br />(أندرويد)"]
       },
       "6": {
-        "text": ["600 lots", "iPhone"]
+        "text": ["600 لوت", "آيفون"]
       }
     }
   },
-
   "footer": {
     "awards": {
-      "title": "Don't just take our word for it",
-      "caption": "Internationally awarded for excellence",
+      "title": "لا تأخذ كلمتنا فقط",
+      "caption": "حائز على جوائز عالمية للتميز",
       "cards": {
         "1": {
-          "title": "Best Trading Mobile App",
+          "title": "أفضل تطبيق تداول محمول",
           "text": "Pan Finance"
         },
         "2": {
-          "title": "Best Stock Provider",
+          "title": "أفضل مزود أسهم",
           "text": "Global Brands Magazine"
         },
         "3": {
-          "title": "Best Client Fund Security",
+          "title": "أفضل أمان لأموال العملاء",
           "text": "Global Brands Magazine"
         },
         "4": {
-          "title": "Best CFDs Broker",
+          "title": "أفضل وسيط CFDs",
           "text": "AtoZ Markets"
         },
         "5": {
-          "title": "Most Reliable Broker",
+          "title": "الوسيط الأكثر موثوقية",
           "text": "World Finance"
         },
         "6": {
-          "title": "Best Broker in Order Execution",
+          "title": "أفضل وسيط في تنفيذ الأوامر",
           "text": "Rankia Awards"
         }
       }
     },
-
     "contacts": {
-      "copyright": "© SquaredFinancial 2025. All rights reserved.",
-      "findUs": "Find us on",
-      "address": "Commercial House 1, Office No.4, Eden Island, Mahe, Seychelles",
-      "contactUs": "Contact us"
+      "copyright": "© SquaredFinancial 2025. جميع الحقوق محفوظة.",
+      "findUs": "ابحث عنا على",
+      "address": "المبنى التجاري 1، المكتب رقم 4، جزيرة إيدن، ماهي، سيشيل",
+      "contactUs": "اتصل بنا"
     },
-
     "disclaimers": {
       "1": {
-        "title": "Risk warning:",
-        "text": "Trading leveraged products involves a significant risk and can result in the loss of your invested capital."
+        "title": "تحذير المخاطر:",
+        "text": "تداول المنتجات ذات الرافعة المالية ينطوي على مخاطر كبيرة وقد يؤدي إلى فقدان رأس المال المستثمر."
       },
       "2": {
-        "title": "Disclaimers:",
-        "text": "The website is not intended to offer investment services to citizens of certain jurisdictions such as EU/EEA member states, UK, USA, Canada, Australia, New Zealand, FATF-listed countries including, among others, Iran, North Korea, and Myanmar (Burma). You must be 18 years old, or of legal age as determined in your country in order to register for an account."
+        "title": "إخلاء المسؤولية:",
+        "text": "لا يُقصد بالموقع تقديم خدمات استثمارية لمواطني بعض الدول مثل دول الاتحاد الأوروبي/المنطقة الاقتصادية الأوروبية، المملكة المتحدة، الولايات المتحدة، كندا، أستراليا، نيوزيلندا، ودول قائمة FATF بما في ذلك إيران، كوريا الشمالية، وميانمار (بورما). يجب أن تكون بعمر 18 سنة أو أكثر، أو بلغت السن القانونية في بلدك لتسجيل حساب."
       },
       "3": {
-        "title": "Legal:",
-        "text": "This website is operated by SQ Sey Ltd, a company authorised and regulated as a Securities Dealer by the Financial Services Authority of Seychelles with license number SD024."
+        "title": "قانوني:",
+        "text": "هذا الموقع مملوك لشركة SQ Sey Ltd، مرخصة ومنظمة كتاجر أوراق مالية من قبل هيئة الخدمات المالية في سيشيل برخصة رقم SD024."
       }
     }
   }

@@ -99,6 +99,11 @@ function onBreakpointChange(swiper) {
       width: 100%;
     }
 
+    html[dir='rtl'] & {
+      margin-left: 0;
+      margin-right: auto;
+    }
+
     .main {
       position: absolute;
       top: 0;
@@ -113,6 +118,16 @@ function onBreakpointChange(swiper) {
         height: em(480);
         margin-left: em(-144);
         margin-bottom: em(30);
+      }
+
+      html[dir='rtl'] & {
+        left: auto;
+        right: 0;
+
+        @include media-breakpoint-down(sm) {
+          margin-left: 0;
+          margin-right: em(-144);
+        }
       }
     }
 
@@ -134,12 +149,6 @@ function onBreakpointChange(swiper) {
         right: auto;
         left: 0;
         transform: scaleX(-1);
-
-        @include media-breakpoint-down(sm) {
-          right: 0;
-          left: auto;
-          transform: scaleX(1);
-        }
       }
     }
 
@@ -235,8 +244,8 @@ function onBreakpointChange(swiper) {
           margin-right: em(16);
 
           html[dir='rtl'] & {
-            margin-left: em(16);
             margin-right: 0;
+            margin-left: em(16);
           }
         }
 
@@ -318,6 +327,10 @@ function onBreakpointChange(swiper) {
             width: auto;
           }
 
+          html[dir='rtl'] & {
+            text-align: left;
+          }
+
           span {
             color: $color-white;
             font-size: em(16);
@@ -356,6 +369,11 @@ function onBreakpointChange(swiper) {
               width: em(104);
               margin-left: 0;
             }
+
+            html[dir='rtl'] & {
+              margin-left: 0;
+              margin-right: auto;
+            }
           }
 
           .stars {
@@ -364,6 +382,10 @@ function onBreakpointChange(swiper) {
 
             @include media-breakpoint-down(sm) {
               width: em(141);
+            }
+
+            html[dir='rtl'] & {
+              transform: scaleX(-1);
             }
           }
         }

@@ -148,9 +148,13 @@ const prizeCards = computed(() => {
       top: 0;
       left: em(-16);
       width: em(388);
-      height: em(256);
+      height: em(258);
       background: linear-gradient(193deg, #040714 29.99%, #287361 90.36%);
       transform: translateX(-100%);
+
+      html[dir='rtl'] & {
+        background: linear-gradient(320deg, #040714 40.02%, #287361 77.92%);
+      }
     }
 
     .top-right {
@@ -158,9 +162,13 @@ const prizeCards = computed(() => {
       top: 0;
       right: em(-16);
       width: em(388);
-      height: em(256);
+      height: em(258);
       background: linear-gradient(40deg, #040714 40.02%, #287361 77.92%);
       transform: translateX(100%);
+
+      html[dir='rtl'] & {
+        background: linear-gradient(167deg, #040714 40.02%, #287361 77.92%);
+      }
     }
 
     .bottom-right {
@@ -177,6 +185,17 @@ const prizeCards = computed(() => {
         height: em(175);
         transform: scaleX(-1);
       }
+
+      html[dir='rtl'] & {
+        right: auto;
+        left: em(-160);
+        transform: scaleX(-1);
+
+        @include media-breakpoint-down(sm) {
+          left: 0;
+          transform: scaleX(1);
+        }
+      }
     }
 
     .swiper {
@@ -188,6 +207,11 @@ const prizeCards = computed(() => {
         width: auto;
         padding-left: em(30);
         margin: 0 em(20);
+
+        html[dir='rtl'] & {
+          padding-left: 0;
+          padding-right: em(30);
+        }
       }
 
       :deep(.swiper-wrapper) {
@@ -221,8 +245,12 @@ const prizeCards = computed(() => {
 
         html[dir='rtl'] & {
           right: auto;
-          left: 0;
+          left: em(-160);
           transform: scaleX(-1);
+
+          @include media-breakpoint-down(sm) {
+            left: 0;
+          }
         }
       }
 

@@ -1,52 +1,46 @@
 {
   "common": {
     "btnStart": "Start Trading Now",
-    "btnRequest": "Request My Offer Now",
-    "btnGet": "Get My Personalized Offer",
-    "btnUpgrade": "Request Your Upgrade",
+    "btnSpin": "Spin Now",
     "TNC": "T&Cs apply",
-    "trust": "SquaredFinancial is rated <strong>Excellent</strong>",
+    "hours": "HOURS",
+    "mins": "MINS",
+    "secs": "SECS",
+    "wheel": {
+      "spin": "Spin<br />Now",
+      "prizes": [
+        "<strong>1 on 1</strong><br />Session with our Chief Market Analyst",
+        "14 Days<br /> <strong>Swap-Free</strong>",
+        "Loyalty<br />Points Boost",
+        "Mystery Gift",
+        "25% First-Time Deposit Bonus",
+        "More Spins",
+        "100% First-Time<br /> Deposit & 50%<br /> Redeposit Bonus",
+        "Free VPS"
+      ]
+    },
+    "spinError": {
+      "title": "No more spins for today!",
+      "text": "Please try again tomorrow.",
+      "button": "OK"
+    },
     "form": {
-      "header": "Request your offer",
-      "name": "Full name",
-      "country": "Country of residence",
-      "searchCountry": "Search country...",
-      "email": "Email",
-      "phone": "Phone",
-      "comment": "Tell us about your current setup",
-      "commentTooltip": "• Broker name<br />• Current bonus / leverage / spreads<br />• Approximate deposit or volume",
-      "formError": {
-        "title": "An error occurred",
-        "text": "Please resubmit your information or contact our Customer Support.",
-        "button": "OK"
-      }
-    },
-    "error": {
-      "emailRequired": "Email is required",
-      "emailInvalid": "Please enter a valid email",
-      "emailRegistered": "The email address you have entered is already registered.",
-      "nameRequired": "Full name is required",
-      "nameTooShort": "Full name must be at least 3 characters long",
-      "nameTooLong": "Full name must be less than 100 characters long",
-      "namePartTooShort": "Name part must be at least 2 characters long",
-      "fullNameRequired": "Full name is required",
-      "nameInvalidCharacters": "Full name must contain only latin characters",
-      "phoneRequired": "Phone is required",
-      "phoneInvalid": "Please enter a valid phone number",
-      "phoneRegistered": "The phone number you have entered is already registered.",
-      "commentRequired": "Comment is required",
-      "commentTooLong": "Comment must be less than 500 characters"
-    },
-    "success": {
-      "title": "You Rock!",
-      "subtitle": "Thank you for your interest!",
-      "text": "We've received your submission. <br />You can expect to hear from us within the next few hours via email, phone, or WhatsApp. <br /><br />We look forward to working with you!"
+      "header": "Congratulations",
+      "text": "You Won",
+      "title": {
+        "100bonus": "100% First-Time Deposit & 50% Redeposit Bonus",
+        "25bonus": "25% First-Time Deposit Bonus",
+        "session": "1 on 1 Session with our Chief Market Analyst"
+      },
+      "claimBtn": "Claim Now",
+      "spinBtn": "Spin Again",
+      "spinLeft": "spins left"
     }
   },
 
   "meta": {
-    "title": "Your Trading Conditions, Just Better | SquaredFinancial",
-    "description": "Trade with confidence under fair, transparent conditions. Enjoy better pricing, fast execution, personal support, and tailored bonuses—built for traders who expect more."
+    "title": "SquaredFinancial | Spin It. Win It. – Forex Bonuses & Rewards",
+    "description": "Spin it, win it, use it – or regret it! Get instant Forex rewards with no deposit required: trading bonuses, loyalty points, risk-free trades, and more. One spin could unlock your next big win!"
   },
 
   "alt": {
@@ -57,80 +51,68 @@
   },
 
   "heroSection": {
-    "title": "Your Conditions.<br /> Just Better",
-    "subtitle": "Already trading<br /> with another broker?",
-    "text": "Don't start from scratch — we'll match your exact conditions and top them up with a bonus for switching.",
+    "title": "Spin It. Win It. Use It.<br />Or Regret It",
+    "subtitle": "One spin could unlock your<br class='hidden-mobile' /> next big win!",
     "trust": "SquaredFinancial is rated <strong>Excellent</strong>",
-    "italicText": "\"SquaredFinancial leads the way with outstanding growth...\"",
-    "caption": "Awarded.<br /> Trusted.<br /> Recognized",
-    "tips": [
-      "Licensed & Regulated<br class='hidden-mobile'/> for your protection",
-      "24/7 Multilingual<br class='hidden-mobile'/> Support",
-      "Industry-leading platforms:<br class='hidden-mobile'/> MT4 & MT5"
-    ]
+    "caption": "Get Instant Rewards.<br /> No Deposit Required",
+    "tips": ["Trading bonuses", "Loyalty points", "Risk-free trades"]
   },
 
   "qualitiesSection": {
-    "title": "Why Switch?",
-    "subtitle": "Here's What You Get",
+    "title": "How It Works",
+    "subtitle": "Grab trading bonuses, loyalty points, risk-free trades, and more.",
+    "trust": "4.4/5* rated by traders",
     "cards": {
       "0": {
-        "title": "Matched Trading <br />Conditions",
-        "text": [
-          "Bonus type & size",
-          "Leverage & account type",
-          "Spreads & Commissions"
-        ]
+        "title": "Click “Spin Now”",
+        "text": "to launch the wheel."
       },
       "1": {
-        "title": "+10-20% <br />Extra Bonus",
-        "text": ["Just for moving over to us."]
+        "title": "Spin & win instantly",
+        "text": "Every spin guarantees a prize."
       },
       "2": {
-        "title": "Personal <br />Support",
-        "text": [
-          "A dedicated manager to help you switch, verify, fund, and trade."
-        ]
-      },
-      "3": {
-        "title": "Tailored VIP <br />Offers",
-        "text": [
-          "Custom terms for high-volume or high-deposit traders — discussed 1-on-1."
-        ]
+        "title": "Claim your reward ",
+        "text": "and follow the instructions to use it."
       }
     }
+  },
+
+  "prizeSection": {
+    "title": "Prizes You Can Win",
+    "subtitle": "Every spin is a win!",
+    "cards": [
+      "<strong>100%</strong><br /> First-Time Deposit<br /> and<br /> <strong>50%</strong><br /> Redeposit Bonus",
+      "<strong>1 on 1 Session</strong><br /> with our Chief Market Analyst",
+      "14 Days<br /> <strong>Swap-Free</strong>",
+      "Loyalty<br /> <strong>Points Boost</strong>",
+      "Free<br /> <strong>VPS</strong>",
+      "Exclusive<br /> <strong>Trading Tools</strong>",
+      "Mystery<br /> <strong>Gift</strong>",
+      "More<br /> <strong>Spins</strong>"
+    ]
   },
 
   "meritSection": {
-    "title": "How It Works.<br />Fast and Simple",
     "cards": {
       "0": {
-        "title": "Tell us about your current setup",
-        "text": [
-          "Broker name",
-          "Current bonus / leverage / spreads",
-          "Approximate deposit or volume",
-          "(Optional: Screenshot or account summary)"
-        ]
+        "title": "Limited-Time Offer",
+        "text": "Don’t miss out – the wheel is only available until"
       },
       "1": {
-        "title": "We build your custom offer",
-        "text": ["Equal or better conditions — no compromises."]
-      },
-      "2": {
-        "title": "Register and switch easily",
-        "text": ["We'll help with everything — no stress, just results."]
+        "title": "No Deposit Needed",
+        "text": "It’s free to spin – all you need is an account.<br class='hidden-mobile' /> New to our platform?",
+        "subtitle": "Spin. Register. Win.<br class='hidden-desktop' /> It’s that simple."
       }
     }
   },
 
-  "vipSection": {
-    "title": "Are You a VIP Trader?",
-    "text": "Trading large volumes or managing big deposits?<br class='hidden-mobile' /><br class='hidden-mobile' /> We're ready to go beyond standard offers. Speak directly with our team for fully customized conditions — better than your current broker."
+  "accountSection": {
+    "title": "Every spin is a win"
   },
 
   "specSection": {
-    "title": "Why SquaredFinancial",
+    "title": "Why Traders Choose Us",
     "text": [
       "<strong>years</strong> <br />of experience",
       "Spreads from",
@@ -145,7 +127,7 @@
 
   "tradesSection": {
     "title": "Trade More. <br class='hidden-desktop' />Get More",
-    "text": "Trade on your verified account, <br />hit the volume targets, and receive exciting gifts.",
+    "text": "Trade on your verified account, <br class='hidden-mobile' />hit the volume targets, and receive exciting gifts.",
     "cardTitles": ["Minimum deposit", "Promo gift"],
     "content": {
       "1": {
@@ -158,7 +140,7 @@
         "text": ["50 lots", "JBL Wireless <br />Speaker"]
       },
       "4": {
-        "text": ["100 lots", "Smartwatch"]
+        "text": ["100 lots", "Smart<br class=hidden-desktop />watch"]
       },
       "5": {
         "text": ["200 lots", "Phone<br />(Android)"]
@@ -167,29 +149,6 @@
         "text": ["600 lots", "iPhone"]
       }
     }
-  },
-
-  "questionsSection": {
-    "title": "Frequently Asked Questions",
-    "questions": [
-      {
-        "question": "Do I need to deposit before getting an offer?",
-        "answer": "No. You'll receive your personalized offer first — only deposit once you're happy."
-      },
-      {
-        "question": "What kind of proof do I need?",
-        "answer": "A simple screenshot or trading statement is enough."
-      },
-      {
-        "question": "How long does it take to switch?",
-        "answer": "Most accounts are set up within 1 business day, with full support."
-      }
-    ]
-  },
-
-  "keepSection": {
-    "title": "Keep What You Like. <br />Trade With More",
-    "text": "Better conditions, <br />real support, <br />and a bonus to welcome you in."
   },
 
   "footer": {

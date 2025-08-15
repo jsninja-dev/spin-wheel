@@ -1,51 +1,45 @@
 {
   "common": {
     "btnStart": "Mulai Trading Sekarang",
-    "btnRequest": "Minta Penawaran Saya Sekarang",
-    "btnGet": "Dapatkan Penawaran Personal Saya",
-    "btnUpgrade": "Minta Peningkatan Anda",
+    "btnSpin": "Putar Now",
     "TNC": "S&K berlaku",
-    "trust": "SquaredFinancial dinilai <strong>Sangat Baik</strong>",
+    "hours": "JAM",
+    "mins": "MENIT",
+    "secs": "DETIK",
+    "wheel": {
+      "spin": "Putar<br />Now",
+      "prizes": [
+        "<strong>Sesi 1-on-1</strong><br />dengan Analis Pasar Kami",
+        "14 Hari<br /> <strong>Bebas Swap</strong>",
+        "Boost<br />Poin Loyalitas",
+        "Hadiah Misteri",
+        "Bonus Deposit Pertama 25%",
+        "Putaran Tambahan",
+        "100% Bonus Deposit Pertama<br /> & 50% Bonus<br /> Deposit Ulang",
+        "VPS Gratis"
+      ]
+    },
+    "spinError": {
+      "title": "Tidak ada putaran lagi hari ini!",
+      "text": "Silakan coba lagi besok.",
+      "button": "OK"
+    },
     "form": {
-      "header": "Minta penawaran Anda",
-      "name": "Nama lengkap",
-      "country": "Negara tempat tinggal",
-      "searchCountry": "Cari negara...",
-      "email": "Email",
-      "phone": "Telepon",
-      "comment": "Deskripsikan setup Anda",
-      "commentTooltip": "• Nama broker<br />• Bonus / leverage / spread saat ini<br />• Perkiraan deposit atau volume",
-      "formError": {
-        "title": "Terjadi kesalahan",
-        "text": "Silakan kirim ulang informasi Anda atau hubungi Dukungan Pelanggan.",
-        "button": "OK"
-      }
-    },
-    "error": {
-      "emailRequired": "Email wajib diisi",
-      "emailInvalid": "Masukkan email yang valid",
-      "emailRegistered": "Email yang Anda masukkan sudah terdaftar.",
-      "nameRequired": "Nama lengkap wajib diisi",
-      "nameTooShort": "Nama lengkap minimal 3 karakter",
-      "nameTooLong": "Nama lengkap harus kurang dari 100 karakter",
-      "namePartTooShort": "Setiap bagian nama minimal 2 karakter",
-      "fullNameRequired": "Nama lengkap wajib diisi",
-      "nameInvalidCharacters": "Nama hanya boleh berisi karakter Latin",
-      "phoneRequired": "Telepon wajib diisi",
-      "phoneInvalid": "Masukkan nomor telepon yang valid",
-      "phoneRegistered": "Nomor telepon yang Anda masukkan sudah terdaftar.",
-      "commentRequired": "Komentar wajib diisi",
-      "commentTooLong": "Komentar harus kurang dari 500 karakter"
-    },
-    "success": {
-      "title": "Anda Hebat!",
-      "subtitle": "Terima kasih atas minat Anda!",
-      "text": "Kami telah menerima pengajuan Anda. <br />Anda dapat mengharapkan kabar dari kami dalam beberapa jam ke depan melalui email, telepon, atau WhatsApp. <br /><br />Kami berharap dapat bekerja dengan Anda!"
+      "header": "Selamat",
+      "text": "Anda Menang",
+      "title": {
+        "100bonus": "100% Bonus Deposit Pertama & 50% Bonus Deposit Ulang",
+        "25bonus": "25% Bonus Deposit Pertama",
+        "session": "Sesi 1-on-1 dengan Analis Pasar Kami"
+      },
+      "claimBtn": "Klaim Sekarang",
+      "spinBtn": "Putar Lagi",
+      "spinLeft": "putaran tersisa"
     }
   },
   "meta": {
-    "title": "Kondisi Trading Anda, Hanya Lebih Baik | SquaredFinancial",
-    "description": "Trading dengan percaya diri di bawah kondisi yang adil dan transparan. Nikmati harga lebih baik, eksekusi cepat, dukungan pribadi, dan bonus yang disesuaikan - dibuat untuk trader yang mengharapkan lebih."
+    "title": "SquaredFinancial | Putar. Menang. – Bonus Forex",
+    "description": "Putar, menang, gunakan – atau menyesal! Dapatkan hadiah Forex instan tanpa deposit: bonus trading, poin loyalitas, trading bebas risiko, dan lebih banyak lagi. Satu putaran bisa mengubah segalanya!"
   },
   "alt": {
     "logo": "squared logo",
@@ -54,80 +48,67 @@
     "gamma": "gamma"
   },
   "heroSection": {
-    "title": "Syarat Anda.<br /> Ditingkatkan",
-    "subtitle": "Sudah trading<br /> dengan broker lain?",
-    "text": "Jangan mulai dari awal - kami akan menyesuaikan kondisi persis Anda dan melengkapinya dengan bonus untuk beralih.",
+    "title": "Putar. Menang. Gunakan.<br />Atau Sesal",
+    "subtitle": "Satu putaran bisa membuka<br class='hidden-mobile' /> kemenangan besar Anda!",
     "trust": "SquaredFinancial dinilai <strong>Sangat Baik</strong>",
-    "italicText": "\"SquaredFinancial memimpin dengan pertumbuhan luar biasa...\"",
-    "caption": "Dianugerahi.<br /> Terpercaya.<br /> Diakui",
-    "tips": [
-      "Berlisensi & Diatur<br class='hidden-mobile'/> untuk perlindungan Anda",
-      "Dukungan Multibahasa<br class='hidden-mobile'/> 24/7",
-      "Platform terkemuka industri:<br class='hidden-mobile'/> MT4 & MT5"
-    ]
+    "caption": "Hadiah Instan.<br /> Tanpa Deposit Diperlukan",
+    "tips": ["Bonus trading", "Poin loyalitas", "Trading bebas risiko"]
   },
   "qualitiesSection": {
-    "title": "Mengapa Beralih?",
-    "subtitle": "Ini Yang Anda Dapatkan",
+    "title": "Cara Kerja",
+    "subtitle": "Dapatkan bonus trading, poin loyalitas, trading bebas risiko, dan lebih banyak lagi.",
+    "trust": "Nilai 4.4/5* dari trader",
     "cards": {
       "0": {
-        "title": "Kondisi Trading<br />Yang Cocok",
-        "text": [
-          "Jenis & ukuran bonus",
-          "Leverage & jenis akun",
-          "Spread & Komisi"
-        ]
+        "title": "Klik \"Putar Sekarang\"",
+        "text": "untuk memutar roda."
       },
       "1": {
-        "title": "+10-20%<br />Bonus Ekstra",
-        "text": ["Hanya untuk pindah ke kami."]
+        "title": "Putar & menang instan",
+        "text": "Setiap putaran menjamin hadiah."
       },
       "2": {
-        "title": "Dukungan<br />Pribadi",
-        "text": [
-          "Manajer khusus untuk membantu Anda beralih, verifikasi, pendanaan, dan trading."
-        ]
-      },
-      "3": {
-        "title": "Penawaran VIP<br />Yang Disesuaikan",
-        "text": [
-          "Syarat khusus untuk trader volume tinggi atau deposit besar - dibahas satu-satu."
-        ]
+        "title": "Klaim hadiah Anda",
+        "text": "dan ikuti petunjuknya."
       }
     }
+  },
+  "prizeSection": {
+    "title": "Hadiah yang Bisa Dimenangkan",
+    "subtitle": "Setiap putaran adalah kemenangan!",
+    "cards": [
+      "<strong>100%</strong><br /> Bonus Deposit Pertama<br /> dan<br /> <strong>50%</strong><br /> Bonus Deposit Ulang",
+      "<strong>Sesi 1-on-1</strong><br /> dengan Analis Pasar Kami",
+      "14 Hari<br /> <strong>Bebas Swap</strong>",
+      "Boost<br /> <strong>Poin Loyalitas</strong>",
+      "<strong>VPS</strong> Gratis",
+      "Alat Trading<br /> <strong>Eksklusif</strong>",
+      "Hadiah<br /> <strong>Misteri</strong>",
+      "Lebih Banyak<br /> <strong>Putaran</strong>"
+    ]
   },
   "meritSection": {
-    "title": "Cara Kerjanya.<br />Cepat dan Sederhana",
     "cards": {
       "0": {
-        "title": "Ceritakan tentang pengaturan Anda saat ini",
-        "text": [
-          "Nama broker",
-          "Bonus/leverage/spread saat ini",
-          "Perkiraan deposit atau volume",
-          "(Opsional: Screenshot atau ringkasan akun)"
-        ]
+        "title": "Penawaran Terbatas",
+        "text": "Jangan lewatkan – roda hanya tersedia hingga"
       },
       "1": {
-        "title": "Kami buat penawaran khusus Anda",
-        "text": ["Kondisi yang sama atau lebih baik - tanpa kompromi."]
-      },
-      "2": {
-        "title": "Daftar dan beralih dengan mudah",
-        "text": ["Kami akan membantu semuanya - tanpa stres, hanya hasil."]
+        "title": "Tidak Perlu Deposit",
+        "text": "Putar gratis, cukup punya akun.<br class='hidden-mobile' /> Baru di platform kami?",
+        "subtitle": "Putar. Daftar. Menang.<br class='hidden-desktop' /> Sesederhana itu."
       }
     }
   },
-  "vipSection": {
-    "title": "Apakah Anda Trader VIP?",
-    "text": "Trading dengan volume besar atau mengelola deposit besar?<br class='hidden-mobile' /><br class='hidden-mobile' /> Kami siap melampaui penawaran standar. Bicaralah langsung dengan tim kami untuk kondisi yang sepenuhnya disesuaikan - lebih baik dari broker Anda saat ini."
+  "accountSection": {
+    "title": "Menang tiap spin"
   },
   "specSection": {
-    "title": "Mengapa SquaredFinancial",
+    "title": "Mengapa Memilih Kami",
     "text": [
       "<strong>tahun</strong> <br />pengalaman",
-      "Spread mulai dari",
-      "<strong>pips</strong>",
+      "Spread dari",
+      "<strong>pip</strong>",
       "Leverage hingga",
       "kecepatan eksekusi",
       "dinilai oleh trader",
@@ -136,21 +117,21 @@
     ]
   },
   "tradesSection": {
-    "title": "Trading Lebih. <br class='hidden-desktop' />Dapatkan Lebih",
-    "text": "Trading di akun terverifikasi Anda, <br />capai target volume, dan terima hadiah menarik.",
+    "title": "Trading Lebih.<br class='hidden-desktop' /> Dapatkan Lebih",
+    "text": "Trading di akun terverifikasi,<br class='hidden-mobile' /> capai target volume, dan dapatkan hadiah.",
     "cardTitles": ["Deposit minimum", "Hadiah promo"],
     "content": {
       "1": {
         "text": ["5 lot", "Kaos"]
       },
       "2": {
-        "text": ["25 lot", "Ear Buds<br />JBL"]
+        "text": ["25 lot", "Earphone<br />JBL"]
       },
       "3": {
-        "text": ["50 lot", "Speaker Nirkabel<br />JBL"]
+        "text": ["50 lot", "Speaker<br />JBL"]
       },
       "4": {
-        "text": ["100 lot", "Smartwatch"]
+        "text": ["100 lot", "Smart<br />watch"]
       },
       "5": {
         "text": ["200 lot", "Ponsel<br />(Android)"]
@@ -160,34 +141,13 @@
       }
     }
   },
-  "questionsSection": {
-    "title": "Pertanyaan yang Sering Diajukan",
-    "questions": [
-      {
-        "question": "Apakah saya perlu deposit sebelum mendapatkan penawaran?",
-        "answer": "Tidak. Anda akan menerima penawaran khusus Anda terlebih dahulu - deposit hanya ketika Anda puas."
-      },
-      {
-        "question": "Bukti apa yang saya butuhkan?",
-        "answer": "Screenshot sederhana atau laporan trading sudah cukup."
-      },
-      {
-        "question": "Berapa lama waktu yang dibutuhkan untuk beralih?",
-        "answer": "Sebagian besar akun disiapkan dalam 1 hari kerja, dengan dukungan penuh."
-      }
-    ]
-  },
-  "keepSection": {
-    "title": "Pertahankan Yang Anda Suka. <br />Trading Dengan Lebih",
-    "text": "Kondisi lebih baik, <br />dukungan nyata, <br />dan bonus selamat datang."
-  },
   "footer": {
     "awards": {
       "title": "Jangan hanya percaya kata kami",
-      "caption": "Dianugerahi secara internasional untuk keunggulan",
+      "caption": "Dianugerahi secara internasional",
       "cards": {
         "1": {
-          "title": "Aplikasi Mobile Trading Terbaik",
+          "title": "Aplikasi Trading Terbaik",
           "text": "Pan Finance"
         },
         "2": {
@@ -195,11 +155,11 @@
           "text": "Global Brands Magazine"
         },
         "3": {
-          "title": "Keamanan Dana Klien Terbaik",
+          "title": "Keamanan Dana Terbaik",
           "text": "Global Brands Magazine"
         },
         "4": {
-          "title": "Broker CFD Terbaik",
+          "title": "Broker CFDs Terbaik",
           "text": "AtoZ Markets"
         },
         "5": {
@@ -207,29 +167,29 @@
           "text": "World Finance"
         },
         "6": {
-          "title": "Broker Terbaik dalam Eksekusi Order",
+          "title": "Eksekusi Order Terbaik",
           "text": "Rankia Awards"
         }
       }
     },
     "contacts": {
-      "copyright": "© SquaredFinancial 2025. Semua hak dilindungi.",
+      "copyright": "© SquaredFinancial 2025. Hak Cipta Dilindungi.",
       "findUs": "Temukan kami di",
       "address": "Commercial House 1, Office No.4, Eden Island, Mahe, Seychelles",
-      "contactUs": "Hubungi kami"
+      "contactUs": "Hubungi Kami"
     },
     "disclaimers": {
       "1": {
-        "title": "Peringatan risiko:",
-        "text": "Trading produk dengan leverage melibatkan risiko signifikan dan dapat mengakibatkan hilangnya modal yang Anda investasikan."
+        "title": "Peringatan Risiko:",
+        "text": "Trading dengan leverage berisiko tinggi dan dapat menyebabkan kerugian modal."
       },
       "2": {
-        "title": "Penyangkalan:",
-        "text": "Situs web ini tidak dimaksudkan untuk menawarkan layanan investasi kepada warga negara yurisdiksi tertentu seperti negara anggota UE/EEA, Inggris, AS, Kanada, Australia, Selandia Baru, negara-negara yang masuk daftar FATF termasuk, antara lain, Iran, Korea Utara, dan Myanmar (Burma). Anda harus berusia 18 tahun, atau usia legal sebagaimana ditentukan di negara Anda untuk mendaftar akun."
+        "title": "Penafian:",
+        "text": "Situs ini tidak menawarkan layanan investasi kepada warga negara tertentu (UE/EEA, UK, USA, Kanada, Australia, NZ, negara FATF seperti Iran, Korea Utara, Myanmar). Anda harus berusia minimal 18 tahun."
       },
       "3": {
         "title": "Legal:",
-        "text": "Situs web ini dioperasikan oleh SQ Sey Ltd, perusahaan yang berwenang dan diatur sebagai Pedagang Efek oleh Otoritas Layanan Keuangan Seychelles dengan nomor lisensi SD024."
+        "text": "Dikelola oleh SQ Sey Ltd, diatur oleh FSA Seychelles (Lisensi SD024)."
       }
     }
   }

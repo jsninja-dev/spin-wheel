@@ -48,24 +48,42 @@ const props = defineProps({
 
   &--1 {
     background: linear-gradient(215deg, #000 50.26%, #608ceb 126.18%);
+
+    html[dir='rtl'] & {
+      background: linear-gradient(145deg, #000 50.26%, #608ceb 126.18%);
+    }
   }
 
   &--2 {
     background: linear-gradient(104deg, #000 31.22%, #608ceb 158.98%);
+
+    html[dir='rtl'] & {
+      background: linear-gradient(256deg, #000 31.22%, #608ceb 158.98%);
+    }
   }
 
   &--3 {
     background: linear-gradient(145deg, #000 50.26%, #608ceb 126.18%);
+
+    html[dir='rtl'] & {
+      background: linear-gradient(215deg, #000 50.26%, #608ceb 126.18%);
+    }
   }
 
   .gradient {
     position: absolute;
     width: 100%;
     height: em(152);
+    transform: scaleX(-1);
 
     &--1 {
       left: 0;
       bottom: 0;
+
+      html[dir='rtl'] & {
+        left: auto;
+        right: 0;
+      }
     }
 
     &--2 {
@@ -73,12 +91,23 @@ const props = defineProps({
       left: 100%;
       transform: rotate(-90deg) translateY(-100%);
       transform-origin: em(76) em(76);
+
+      html[dir='rtl'] & {
+        left: auto;
+        right: 0;
+        transform: rotate(-90deg);
+      }
     }
 
     &--3 {
       bottom: 0;
       left: 0;
       transform: scaleX(-1);
+
+      html[dir='rtl'] & {
+        left: auto;
+        right: 0;
+      }
     }
   }
 

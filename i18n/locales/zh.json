@@ -1,51 +1,45 @@
 {
   "common": {
     "btnStart": "立即开始交易",
-    "btnRequest": "立即获取我的报价",
-    "btnGet": "获取个性化报价",
-    "btnUpgrade": "申请升级",
-    "TNC": "条款适用",
-    "trust": "SquaredFinancial评级为<strong>优秀</strong>",
+    "btnSpin": "立即旋转",
+    "TNC": "条款与条件适用",
+    "hours": "小时",
+    "mins": "分钟",
+    "secs": "秒",
+    "wheel": {
+      "spin": "立即<br />旋转",
+      "prizes": [
+        "<strong>1对1</strong><br />与首席分析师会话",
+        "14天<br /> <strong>免隔夜利息</strong>",
+        "忠诚度<br />积分奖励",
+        "神秘礼物",
+        "25%首次入金奖励",
+        "更多旋转机会",
+        "100%首次入金<br /> 和50%<br /> 再存奖励",
+        "免费VPS"
+      ]
+    },
+    "spinError": {
+      "title": "今日旋转次数已用完！",
+      "text": "请明天再试。",
+      "button": "确定"
+    },
     "form": {
-      "header": "申请您的报价",
-      "name": "全名",
-      "country": "居住国家",
-      "searchCountry": "搜索国家...",
-      "email": "电子邮件",
-      "phone": "电话",
-      "comment": "告诉我们您当前的设置",
-      "commentTooltip": "• 经纪商名称<br />• 当前奖金 / 杠杆 / 点差<br />• 大约存款或交易量",
-      "formError": {
-        "title": "发生错误",
-        "text": "请重新提交您的信息或联系客户支持。",
-        "button": "确定"
-      }
-    },
-    "error": {
-      "emailRequired": "电子邮件必填",
-      "emailInvalid": "请输入有效的电子邮件",
-      "emailRegistered": "您输入的电子邮件已注册。",
-      "nameRequired": "全名必填",
-      "nameTooShort": "全名至少3个字符",
-      "nameTooLong": "全名必须少于100个字符",
-      "namePartTooShort": "名字部分至少2个字符",
-      "fullNameRequired": "全名必填",
-      "nameInvalidCharacters": "全名只能包含拉丁字符",
-      "phoneRequired": "电话必填",
-      "phoneInvalid": "请输入有效的电话号码",
-      "phoneRegistered": "您输入的电话号码已注册。",
-      "commentRequired": "评论必填",
-      "commentTooLong": "评论必须少于500个字符"
-    },
-    "success": {
-      "title": "太棒了！",
-      "subtitle": "感谢您的关注！",
-      "text": "我们已收到您的提交。<br />您将在几小时内通过电子邮件、电话或WhatsApp收到回复。<br /><br />期待与您合作！"
+      "header": "恭喜",
+      "text": "您赢得了",
+      "title": {
+        "100bonus": "100%首次入金和50%再存奖励",
+        "25bonus": "25%首次入金奖励",
+        "session": "1对1与首席分析师会话"
+      },
+      "claimBtn": "立即领取",
+      "spinBtn": "再转一次",
+      "spinLeft": "剩余旋转次数"
     }
   },
   "meta": {
-    "title": "您的交易条件，更好 | SquaredFinancial",
-    "description": "在公平透明的条件下自信交易。享受更好的价格、快速执行、个人支持和定制奖金——专为要求更高的交易者打造。"
+    "title": "SquaredFinancial | 转。赢。– 外汇奖励",
+    "description": "旋转、赢取、使用 – 否则后悔！无需入金即可获得即时外汇奖励：交易奖金、忠诚积分、无风险交易等。一次旋转可能改变一切！"
   },
   "alt": {
     "logo": "squared logo",
@@ -54,68 +48,63 @@
     "gamma": "gamma"
   },
   "heroSection": {
-    "title": "您的条件。<br /> 更好",
-    "subtitle": "已经在与其他<br />经纪商交易？",
-    "text": "无需从头开始——我们将匹配您的确切条件并为您提供转换奖金。",
-    "trust": "SquaredFinancial评级为<strong>优秀</strong>",
-    "italicText": "\"SquaredFinancial以卓越的增长引领...\"",
-    "caption": "获奖。<br /> 值得信赖。<br /> 认可",
-    "tips": [
-      "持牌受监管<br class='hidden-mobile'/>保护您",
-      "24/7多语言<br class='hidden-mobile'/>支持",
-      "行业领先平台:<br class='hidden-mobile'/> MT4和MT5"
-    ]
+    "title": "转。赢。用。<br />否则后悔",
+    "subtitle": "一次旋转可能解锁<br class='hidden-mobile' />您的下一次大赢！",
+    "trust": "SquaredFinancial被评为<strong>优秀</strong>",
+    "caption": "即时奖励。<br /> 无需入金",
+    "tips": ["交易奖金", "忠诚积分", "无风险交易"]
   },
   "qualitiesSection": {
-    "title": "为什么转换？",
-    "subtitle": "您将获得什么",
+    "title": "如何运作",
+    "subtitle": "获取交易奖金、忠诚积分、无风险交易等。",
+    "trust": "交易者评分4.4/5*",
     "cards": {
       "0": {
-        "title": "匹配的交易<br />条件",
-        "text": ["奖金类型和规模", "杠杆和账户类型", "点差和佣金"]
+        "title": "点击“立即旋转”",
+        "text": "启动转盘。"
       },
       "1": {
-        "title": "+10-20%<br />额外奖金",
-        "text": ["仅限转换到我们"]
+        "title": "旋转并立即赢取",
+        "text": "每次旋转保证获奖。"
       },
       "2": {
-        "title": "个人<br />支持",
-        "text": ["专属经理协助您转换、验证、注资和交易"]
-      },
-      "3": {
-        "title": "定制VIP<br />优惠",
-        "text": ["针对大额交易者的定制条款——一对一讨论"]
+        "title": "领取奖励",
+        "text": "并按照说明使用。"
       }
     }
+  },
+  "prizeSection": {
+    "title": "可赢取的奖励",
+    "subtitle": "每次旋转都是胜利！",
+    "cards": [
+      "<strong>100%</strong><br /> 首次入金奖励<br /> 和<br /> <strong>50%</strong><br /> 再存奖励",
+      "<strong>1对1会话</strong><br /> 与首席分析师",
+      "14天<br /> <strong>免隔夜利息</strong>",
+      "忠诚度<br /> <strong>积分奖励</strong>",
+      "免费<br /> <strong>VPS</strong>",
+      "独家<br /> <strong>交易工具</strong>",
+      "神秘<br /> <strong>礼物</strong>",
+      "更多<br /> <strong>旋转机会</strong>"
+    ]
   },
   "meritSection": {
-    "title": "如何运作。<br />快速简单",
     "cards": {
       "0": {
-        "title": "告诉我们您当前的设置",
-        "text": [
-          "经纪商名称",
-          "当前奖金/杠杆/点差",
-          "大致存款或交易量",
-          "(可选: 截图或账户摘要)"
-        ]
+        "title": "限时优惠",
+        "text": "不要错过 – 转盘仅提供至"
       },
       "1": {
-        "title": "我们为您定制报价",
-        "text": ["同等或更好的条件——绝不妥协"]
-      },
-      "2": {
-        "title": "轻松注册和转换",
-        "text": ["我们全程协助——无压力，只有结果"]
+        "title": "无需入金",
+        "text": "免费旋转，只需账户。<br class='hidden-mobile' /> 新用户？",
+        "subtitle": "旋转。注册。赢取。<br class='hidden-desktop' /> 就这么简单。"
       }
     }
   },
-  "vipSection": {
-    "title": "您是VIP交易者吗？",
-    "text": "大额交易或管理大额存款？<br class='hidden-mobile' /><br class='hidden-mobile' /> 我们准备超越标准报价。直接与团队洽谈完全定制的条件——比您当前的经纪商更好。"
+  "accountSection": {
+    "title": "每次旋转都是胜利"
   },
   "specSection": {
-    "title": "为什么选择SquaredFinancial",
+    "title": "交易者选择我们的理由",
     "text": [
       "<strong>年</strong> <br />经验",
       "点差从",
@@ -123,14 +112,14 @@
       "杠杆高达",
       "执行速度",
       "交易者评分",
-      "交易品种",
+      "交易工具",
       "客户支持"
     ]
   },
   "tradesSection": {
-    "title": "交易更多。 <br class='hidden-desktop' />获得更多",
-    "text": "在已验证账户上交易，<br />达到交易量目标，获得激动人心的礼物。",
-    "cardTitles": ["最低存款", "促销礼品"],
+    "title": "交易越多。<br class='hidden-desktop' />获得越多",
+    "text": "在已验证账户上交易，<br class='hidden-mobile' />达到交易量目标并获得奖励。",
+    "cardTitles": ["最低入金", "促销礼物"],
     "content": {
       "1": {
         "text": ["5手", "T恤"]
@@ -142,7 +131,7 @@
         "text": ["50手", "JBL无线<br />音箱"]
       },
       "4": {
-        "text": ["100手", "智能手表"]
+        "text": ["100手", "智能<br />手表"]
       },
       "5": {
         "text": ["200手", "手机<br />(安卓)"]
@@ -152,38 +141,17 @@
       }
     }
   },
-  "questionsSection": {
-    "title": "常见问题",
-    "questions": [
-      {
-        "question": "获取报价前需要存款吗？",
-        "answer": "不需要。您会先收到个性化报价——满意后再存款。"
-      },
-      {
-        "question": "需要提供什么证明？",
-        "answer": "简单的截图或交易对账单即可。"
-      },
-      {
-        "question": "转换需要多长时间？",
-        "answer": "大多数账户在1个工作日内完成设置，并提供全面支持。"
-      }
-    ]
-  },
-  "keepSection": {
-    "title": "保留您喜欢的。 <br />交易更多",
-    "text": "更好的条件，<br />真实的支持，<br />和欢迎奖金。"
-  },
   "footer": {
     "awards": {
-      "title": "不仅是我们说",
-      "caption": "国际卓越奖项",
+      "title": "不仅仅是我们说的",
+      "caption": "国际获奖",
       "cards": {
         "1": {
-          "title": "最佳交易移动应用",
+          "title": "最佳交易应用",
           "text": "Pan Finance"
         },
         "2": {
-          "title": "最佳股票提供商",
+          "title": "最佳股票供应商",
           "text": "Global Brands Magazine"
         },
         "3": {
@@ -191,7 +159,7 @@
           "text": "Global Brands Magazine"
         },
         "4": {
-          "title": "最佳CFD经纪商",
+          "title": "最佳差价合约经纪商",
           "text": "AtoZ Markets"
         },
         "5": {
@@ -199,29 +167,29 @@
           "text": "World Finance"
         },
         "6": {
-          "title": "最佳订单执行经纪商",
+          "title": "最佳订单执行",
           "text": "Rankia Awards"
         }
       }
     },
     "contacts": {
       "copyright": "© SquaredFinancial 2025。保留所有权利。",
-      "findUs": "在以下平台找到我们",
-      "address": "塞舌尔马埃岛伊甸园商业大厦1号4室",
+      "findUs": "关注我们",
+      "address": "Commercial House 1, Office No.4, Eden Island, Mahe, Seychelles",
       "contactUs": "联系我们"
     },
     "disclaimers": {
       "1": {
         "title": "风险警告：",
-        "text": "杠杆产品交易存在重大风险，可能导致您损失投资本金。"
+        "text": "杠杆交易风险高，可能导致资金损失。"
       },
       "2": {
         "title": "免责声明：",
-        "text": "本网站不向欧盟/欧洲经济区成员国、英国、美国、加拿大、澳大利亚、新西兰、FATF名单国家(包括伊朗、朝鲜、缅甸等)公民提供投资服务。您必须年满18岁或达到所在国法定年龄才能注册账户。"
+        "text": "本网站不向某些司法管辖区（欧盟/欧洲经济区、英国、美国、加拿大、澳大利亚、新西兰、FATF列出的国家如伊朗、朝鲜、缅甸）的公民提供投资服务。您必须年满18岁。"
       },
       "3": {
         "title": "法律声明：",
-        "text": "本网站由SQ Sey Ltd运营，该公司受塞舌尔金融服务管理局监管，持有证券交易商牌照(SD024)。"
+        "text": "本网站由SQ Sey Ltd运营，受塞舌尔金融服务管理局监管（许可证号SD024）。"
       }
     }
   }

@@ -97,7 +97,7 @@ const { scrollToWheel } = useScroll();
     flex-direction: column;
 
     .main {
-      width: em(600);
+      width: em(640);
       margin-bottom: em(80);
 
       @include media-breakpoint-down(sm) {
@@ -138,6 +138,14 @@ const { scrollToWheel } = useScroll();
             font-weight: $font-weight-semi-bold;
             line-height: 1.15;
           }
+
+          html[lang='ms'] & {
+            font-size: em(80);
+
+            @include media-breakpoint-down(sm) {
+              font-size: em(32);
+            }
+          }
         }
 
         .dot {
@@ -153,7 +161,7 @@ const { scrollToWheel } = useScroll();
             margin-bottom: 0;
           }
 
-          html[lang='ar'] & {
+          html[dir='rtl'] & {
             margin-left: 0;
             margin-right: em(10);
 
@@ -246,6 +254,10 @@ const { scrollToWheel } = useScroll();
             margin-bottom: 0;
           }
 
+          html[dir='rtl'] & {
+            text-align: left;
+          }
+
           span {
             display: block;
             color: #040714;
@@ -283,6 +295,11 @@ const { scrollToWheel } = useScroll();
               width: em(102);
               height: em(27);
             }
+
+            html[dir='rtl'] & {
+              margin-left: 0;
+              margin-right: auto;
+            }
           }
 
           .stars {
@@ -318,7 +335,7 @@ const { scrollToWheel } = useScroll();
 
         html[dir='rtl'] & {
           left: auto;
-          right: em(744);
+          right: em(800);
 
           @include media-breakpoint-down(sm) {
             left: auto;
@@ -346,7 +363,7 @@ const { scrollToWheel } = useScroll();
           flex-direction: column;
           gap: em(45);
           margin-top: em(64);
-          width: em(105);
+          width: em(120);
 
           @include media-breakpoint-down(sm) {
             flex-direction: row;
@@ -405,9 +422,13 @@ const { scrollToWheel } = useScroll();
           margin-top: em(18);
           position: relative;
           top: 0;
-          right: 0;
           order: 4;
           margin-inline: auto;
+        }
+
+        html[dir='rtl'] & {
+          right: auto;
+          left: 0;
         }
       }
     }
@@ -426,6 +447,12 @@ const { scrollToWheel } = useScroll();
       height: calc(100% - em(137));
       width: 100%;
       left: 0;
+    }
+
+    html[dir='rtl'] & {
+      right: auto;
+      left: 0;
+      transform: scaleX(-1);
     }
   }
 }

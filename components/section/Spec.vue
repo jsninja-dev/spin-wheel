@@ -171,6 +171,10 @@ function onBreakpointChange(swiper) {
           margin-left: auto;
           margin-right: em(20);
         }
+
+        html[lang='de'] & {
+          max-width: 100%;
+        }
       }
 
       .heading-text {
