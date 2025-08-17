@@ -244,7 +244,12 @@ export default defineNuxtConfig({
         file: 'zh.json',
       },
     ],
-    detectBrowserLanguage: false,
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      redirectOn: 'root', // Redirect to detected language on first visit
+      alwaysRedirect: false,
+    },
     baseUrl: baseURL,
     defaultLocale: localeCodes.EN,
   },

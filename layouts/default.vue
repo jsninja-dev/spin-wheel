@@ -16,6 +16,12 @@ useHead({
     lang: i18nHead.value.htmlAttrs.lang,
     dir: locale.value === 'ar' ? 'rtl' : 'ltr',
   },
+  meta: [
+    {
+      name: 'robots',
+      content: 'noindex, nofollow', // Blocks indexing + link crawling
+    },
+  ],
 });
 
 const title = computed(() => t(seoMeta.title));
