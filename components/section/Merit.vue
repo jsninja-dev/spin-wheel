@@ -1,6 +1,5 @@
 <script setup>
 import { ref, computed, onMounted, onUnmounted } from 'vue';
-import links from '@/constants/links';
 
 const { scrollToWheel } = useScroll();
 const currentTime = ref(45 * 60); // 45 minutes in seconds
@@ -172,11 +171,6 @@ onUnmounted(() => {
                 :text="$t('common.btnSpin')"
                 @click="scrollToWheel"
               />
-              <a :href="links.TNC" target="_blank" class="link">
-                <span>
-                  {{ $t('common.TNC') }}
-                </span>
-              </a>
             </div>
           </div>
         </div>
@@ -410,14 +404,6 @@ onUnmounted(() => {
 
           .button {
             flex-shrink: 0;
-          }
-
-          .link {
-            span {
-              color: $color-black-999;
-              font-size: em(14);
-              font-weight: $font-weight-regular;
-            }
           }
         }
       }

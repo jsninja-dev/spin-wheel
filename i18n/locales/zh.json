@@ -19,13 +19,9 @@
         "免费VPS"
       ]
     },
-    "spinError": {
-      "title": "今日旋转次数已用完！",
-      "text": "请明天再试。",
-      "button": "确定"
-    },
     "form": {
       "header": "恭喜",
+      "headerEnd": "今日旋转次数已用完！",
       "text": "您赢得了",
       "title": {
         "100bonus": "100%首次入金和50%再存奖励",
@@ -51,12 +47,11 @@
     "title": "转。赢。用。<br />否则后悔",
     "subtitle": "一次旋转可能解锁<br class='hidden-mobile' />您的下一次大赢！",
     "trust": "SquaredFinancial被评为<strong>优秀</strong>",
-    "caption": "即时奖励。<br /> 无需入金",
-    "tips": ["交易奖金", "忠诚积分", "无风险交易"]
+    "caption": "即时奖励。<br /> 无需入金"
   },
   "qualitiesSection": {
     "title": "如何运作",
-    "subtitle": "获取交易奖金、忠诚积分、无风险交易等。",
+    "subtitle": "领取交易奖励、忠诚积分等更多优惠。",
     "trust": "交易者评分4.4/5*",
     "cards": {
       "0": {

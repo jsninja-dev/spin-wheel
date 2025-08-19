@@ -19,13 +19,9 @@
         "VPS gratuito"
       ]
     },
-    "spinError": {
-      "title": "¡No hay más giros hoy!",
-      "text": "Vuelve mañana.",
-      "button": "OK"
-    },
     "form": {
       "header": "Felicidades",
+      "headerEnd": "¡No hay más giros hoy!",
       "text": "Ganaste",
       "title": {
         "100bonus": "100% bono primer depósito y 50% bono por redepósito",
@@ -51,12 +47,11 @@
     "title": "Gíralo. Gánate. Úsalo.<br />O arrepiéntete",
     "subtitle": "Un giro podría desbloquear<br class='hidden-mobile' /> tu próxima gran victoria",
     "trust": "SquaredFinancial tiene valoración <strong>Excelente</strong>",
-    "caption": "Recompensas al instante.<br /> Sin depósito requerido",
-    "tips": ["Bonos de trading", "Puntos de lealtad", "Trades sin riesgo"]
+    "caption": "Recompensas al instante.<br /> Sin depósito requerido"
   },
   "qualitiesSection": {
     "title": "Cómo funciona",
-    "subtitle": "Consigue bonos, puntos de lealtad, trades sin riesgo y más.",
+    "subtitle": "Obtén bonificaciones por trading, puntos de fidelidad y más.",
     "trust": "Valoración 4.4/5* por traders",
     "cards": {
       "0": {

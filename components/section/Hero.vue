@@ -1,7 +1,4 @@
 <script setup>
-import { heroTips } from '@/configs/heroTips';
-import links from '@/constants/links';
-
 const { scrollToWheel } = useScroll();
 </script>
 
@@ -29,9 +26,6 @@ const { scrollToWheel } = useScroll();
               :text="$t('common.btnSpin')"
               @click="scrollToWheel"
             />
-            <a :href="links.TNC" class="tnc-link" target="_blank">
-              <span v-html="$t('common.TNC')" />
-            </a>
           </div>
           <div class="trust">
             <div class="trust-text">
@@ -56,12 +50,6 @@ const { scrollToWheel } = useScroll();
             <div class="caption hidden-mobile">
               <span v-html="$t('heroSection.caption')" />
             </div>
-            <ul class="list">
-              <li class="item" v-for="(tip, idx) in heroTips" :key="idx">
-                <CPicture :src="tip.icon" alt="" loading="lazy" class="icon" />
-                <span v-html="$t(tip.text)" />
-              </li>
-            </ul>
           </div>
           <UiWheel class="wheel" wheelType="active" />
         </div>
@@ -200,6 +188,7 @@ const { scrollToWheel } = useScroll();
         flex-direction: column;
         gap: em(4);
         margin-top: em(24);
+        margin-bottom: em(32);
         align-items: center;
 
         @include media-breakpoint-down(sm) {
@@ -209,17 +198,6 @@ const { scrollToWheel } = useScroll();
         .button {
           @include media-breakpoint-down(sm) {
             width: 100%;
-          }
-        }
-
-        .tnc-link {
-          text-align: center;
-
-          span {
-            color: $color-black;
-            font-size: em(14);
-            font-weight: $font-weight-regular;
-            line-height: 115%;
           }
         }
       }
@@ -353,61 +331,6 @@ const { scrollToWheel } = useScroll();
               font-size: em(16);
               font-weight: $font-weight-semi-bold;
               line-height: 1.096;
-            }
-          }
-        }
-
-        .list {
-          position: relative;
-          display: flex;
-          flex-direction: column;
-          gap: em(45);
-          margin-top: em(64);
-          width: em(120);
-
-          @include media-breakpoint-down(sm) {
-            flex-direction: row;
-            justify-content: space-between;
-            gap: em(24);
-            width: 100%;
-            padding: 0;
-            margin-top: 0;
-          }
-
-          .item {
-            color: $color-white;
-            display: flex;
-            flex-direction: column;
-            gap: em(20);
-
-            @include media-breakpoint-down(sm) {
-              position: relative;
-              flex-shrink: 0;
-              gap: em(10);
-              width: em(80);
-              align-items: center;
-            }
-
-            .icon {
-              width: em(35);
-              height: em(35);
-
-              @include media-breakpoint-down(sm) {
-                width: em(24);
-                height: em(24);
-              }
-            }
-
-            span {
-              font-size: em(24);
-              font-weight: $font-weight-medium;
-              line-height: 112.5%;
-
-              @include media-breakpoint-down(sm) {
-                font-size: em(14);
-                font-weight: $font-weight-regular;
-                text-align: center;
-              }
             }
           }
         }

@@ -19,13 +19,9 @@
         "Free VPS"
       ]
     },
-    "spinError": {
-      "title": "No more spins for today!",
-      "text": "Please try again tomorrow.",
-      "button": "OK"
-    },
     "form": {
       "header": "Congratulations",
+      "headerEnd": "No more spins for today!",
       "text": "You Won",
       "title": {
         "100bonus": "100% First-Time Deposit & 50% Redeposit Bonus",
@@ -54,13 +50,12 @@
     "title": "Spin It. Win It. Use It.<br />Or Regret It",
     "subtitle": "One spin could unlock your<br class='hidden-mobile' /> next big win!",
     "trust": "SquaredFinancial is rated <strong>Excellent</strong>",
-    "caption": "Get Instant Rewards.<br /> No Deposit Required",
-    "tips": ["Trading bonuses", "Loyalty points", "Risk-free trades"]
+    "caption": "Get Instant Rewards.<br /> No Deposit Required"
   },
 
   "qualitiesSection": {
     "title": "How It Works",
-    "subtitle": "Grab trading bonuses, loyalty points, risk-free trades, and more.",
+    "subtitle": "Grab trading bonuses, loyalty points, and more.",
     "trust": "4.4/5* rated by traders",
     "cards": {
       "0": {

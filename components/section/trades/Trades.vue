@@ -1,6 +1,5 @@
 <script setup>
 import { trades } from '@/configs/trades';
-import links from '@/constants/links';
 
 const { scrollToWheel } = useScroll();
 </script>
@@ -33,11 +32,6 @@ const { scrollToWheel } = useScroll();
           :text="$t('common.btnStart')"
           @click="scrollToWheel"
         />
-        <a :href="links.TNC" target="_blank" class="link">
-          <span>
-            {{ $t('common.TNC') }}
-          </span>
-        </a>
       </div>
     </div>
   </section>
@@ -126,14 +120,6 @@ const { scrollToWheel } = useScroll();
 
     .button {
       flex-shrink: 0;
-    }
-
-    .link {
-      span {
-        color: #313131;
-        font-size: em(14);
-        font-weight: $font-weight-regular;
-      }
     }
   }
 

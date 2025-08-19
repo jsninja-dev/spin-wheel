@@ -19,13 +19,9 @@
         "Kostenloser VPS"
       ]
     },
-    "spinError": {
-      "title": "Keine Drehungen mehr für heute!",
-      "text": "Bitte versuchen Sie es morgen wieder.",
-      "button": "OK"
-    },
     "form": {
       "header": "Glückwunsch",
+      "headerEnd": "Keine Drehungen mehr für heute!",
       "text": "Sie haben gewonnen",
       "title": {
         "100bonus": "100% erste Einzahlung 50% nächste Einzahlung",
@@ -51,12 +47,11 @@
     "title": "Dreh. Gewinn. Nutz.<br />Oder bereu.",
     "subtitle": "Eine Drehung könnte Ihren<br class='hidden-mobile' /> nächsten großen Gewinn freischalten!",
     "trust": "SquaredFinancial wird als <strong>Hervorragend</strong> bewertet",
-    "caption": "Sofortige Belohnungen.<br /> Keine Einzahlung erforderlich",
-    "tips": ["Handelsboni", "Treuepunkte", "Risikofreie Trades"]
+    "caption": "Sofortige Belohnungen.<br /> Keine Einzahlung erforderlich"
   },
   "qualitiesSection": {
     "title": "So geht’s",
-    "subtitle": "Sichern Sie sich Handelsboni, Treuepunkte, risikofreie Trades und mehr.",
+    "subtitle": "Sichern Sie sich Handelsboni, Treuepunkte und mehr.",
     "trust": "4.4/5* von Händlern bewertet",
     "cards": {
       "0": {

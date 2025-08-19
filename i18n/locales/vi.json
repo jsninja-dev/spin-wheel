@@ -19,13 +19,9 @@
         "VPS miễn phí"
       ]
     },
-    "spinError": {
-      "title": "Hết lượt quay hôm nay!",
-      "text": "Vui lòng thử lại vào ngày mai.",
-      "button": "Đồng ý"
-    },
     "form": {
       "header": "Chúc mừng",
+      "headerEnd": "Hết lượt quay hôm nay!",
       "text": "Bạn đã thắng",
       "title": {
         "100bonus": "Thưởng 100% nạp lần đầu & 50% nạp lại",
@@ -51,12 +47,11 @@
     "title": "Quay. Thắng. Dùng.<br />Hoặc hối tiếc",
     "subtitle": "Một lần quay có thể mở khóa<br class='hidden-mobile' /> chiến thắng lớn của bạn!",
     "trust": "SquaredFinancial được đánh giá <strong>Xuất sắc</strong>",
-    "caption": "Ưu đãi tức thì.<br /> Không cần nạp tiền",
-    "tips": ["Thưởng giao dịch", "Điểm thành viên", "Giao dịch không rủi ro"]
+    "caption": "Ưu đãi tức thì.<br /> Không cần nạp tiền"
   },
   "qualitiesSection": {
     "title": "Cách hoạt động",
-    "subtitle": "Nhận thưởng giao dịch, điểm thành viên, giao dịch không rủi ro và hơn thế nữa.",
+    "subtitle": "Nhận tiền thưởng giao dịch, điểm tích lũy và hơn thế nữa.",
     "trust": "Được đánh giá 4.4/5* bởi trader",
     "cards": {
       "0": {

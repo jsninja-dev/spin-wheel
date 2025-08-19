@@ -1,5 +1,4 @@
 <script setup>
-import links from '@/constants/links';
 import breakpoints from '@/configs/breakpoints';
 
 const { scrollToWheel } = useScroll();
@@ -57,11 +56,6 @@ const prizeCards = computed(() => {
           :text="$t('common.btnSpin')"
           @click="scrollToWheel"
         />
-        <a :href="links.TNC" target="_blank" class="link">
-          <span>
-            {{ $t('common.TNC') }}
-          </span>
-        </a>
       </div>
     </div>
   </section>
@@ -288,6 +282,7 @@ const prizeCards = computed(() => {
 
   .button-wrapper {
     margin-top: em(60);
+    margin-bottom: em(32);
     display: inline-flex;
     flex-direction: column;
     align-items: center;
@@ -296,18 +291,11 @@ const prizeCards = computed(() => {
     @include media-breakpoint-down(sm) {
       margin-top: em(30);
       display: flex;
+      margin-bottom: 0;
     }
 
     .button {
       flex-shrink: 0;
-    }
-
-    .link {
-      span {
-        color: #313131;
-        font-size: em(14);
-        font-weight: $font-weight-regular;
-      }
     }
   }
 }

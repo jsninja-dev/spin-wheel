@@ -19,13 +19,9 @@
         "VPS gratuito"
       ]
     },
-    "spinError": {
-      "title": "Niente più giri per oggi!",
-      "text": "Riprova domani.",
-      "button": "OK"
-    },
     "form": {
       "header": "Congratulazioni",
+      "headerEnd": "Niente più giri per oggi!",
       "text": "Hai vinto",
       "title": {
         "100bonus": "100% bonus primo deposito e 50% bonus rideposito",
@@ -51,12 +47,11 @@
     "title": "Gira. Vinci. Usa.<br />O pentiti",
     "subtitle": "Un giro potrebbe sbloccare<br class='hidden-mobile' /> la tua prossima vittoria!",
     "trust": "SquaredFinancial valutato <strong>Eccellente</strong>",
-    "caption": "Premi istantanei.<br /> Nessun deposito richiesto",
-    "tips": ["Bonus trading", "Punti fedeltà", "Trade senza rischio"]
+    "caption": "Premi istantanei.<br /> Nessun deposito richiesto"
   },
   "qualitiesSection": {
     "title": "Come funziona",
-    "subtitle": "Ottieni bonus trading, punti fedeltà, trade senza rischio e altro.",
+    "subtitle": "Ottieni bonus di trading, punti fedeltà e altro ancora.",
     "trust": "Valutazione 4.4/5* dai trader",
     "cards": {
       "0": {

@@ -4,10 +4,15 @@ import links from '@/constants/links';
 import breakpoints from '@/configs/breakpoints';
 
 const { getUrlWithUtm, hasUtmParameters } = useUtm();
+const store = useGlobalStore();
 
 const props = defineProps({
   prize: {
     type: Object,
+    required: true,
+  },
+  isEnd: {
+    type: Boolean,
     required: true,
   },
 });
@@ -44,6 +49,11 @@ const handleBackdropClick = (event) => {
   }
 };
 
+const spinAgain = () => {
+  closeForm();
+  store.setIsSpinning(true);
+};
+
 // Prevent body scroll when form is open
 onMounted(() => {
   document.body.style.overflow = 'hidden';
@@ -66,11 +76,17 @@ onUnmounted(() => {
     <div class="ui-form-container" @click="handleBackdropClick">
       <Transition name="form-slide" appear>
         <div class="form">
+          <CPicture
+            src="/images/form/error.svg"
+            class="exit-btn"
+            alt="exit"
+            @click="closeForm"
+          />
           <UiGradientText class="header">
             <span class="header-text">
-              {{ $t('common.form.header') }}
+              {{ isEnd ? $t('common.form.headerEnd') : $t('common.form.header') }}
             </span>
-            <div class="square-dot" />
+            <div v-if="!isEnd" class="square-dot" />
           </UiGradientText>
           <div class="content">
             <div class="title">
@@ -79,19 +95,24 @@ onUnmounted(() => {
             </div>
           </div>
           <div class="footer">
-            <UiButton
-              class="btn clam-btn"
-              theme="red"
-              :to="link"
-              :target="link ? '_blank' : '_self'"
-              @click="closeForm"
-            >
-              <span>{{ $t('common.form.claimBtn') }}</span>
-            </UiButton>
+            <div class="claim-wrapper">
+              <UiButton
+                class="btn claim-btn"
+                theme="red"
+                :to="link"
+                :target="link ? '_blank' : '_self'"
+                @click="closeForm"
+              >
+                <span>{{ $t('common.form.claimBtn') }}</span>
+              </UiButton>
+              <a :href="links.TNC" target="_blank" class="tnc-link">
+                <span>{{ $t('common.TNC') }}</span>
+              </a>
+            </div>
             <UiButton
               class="btn spin-btn"
               theme="red-outline"
-              @click="closeForm"
+              @click="spinAgain"
               :disabled="spinCount === 0"
             >
               <span class="main-text">{{ $t('common.form.spinBtn') }}</span>
@@ -148,15 +169,42 @@ onUnmounted(() => {
     top: 20%;
     left: 50%;
     transform: translateX(-50%);
-    width: em(512);
-    padding: em(40) em(60);
+    width: em(528);
+    padding: em(60) em(60) em(40);
     background-color: $color-white;
 
     @include media-breakpoint-down(sm) {
       width: calc(100% - em(40));
-      padding: em(20) em(32);
+      padding: em(40) em(24) em(20);
       top: 50%;
       transform: translateX(-50%) translateY(-50%);
+    }
+
+    .exit-btn {
+      position: absolute;
+      top: em(24);
+      right: em(24);
+      width: em(36);
+      height: em(36);
+      cursor: pointer;
+      z-index: 1;
+
+      @include media-breakpoint-down(sm) {
+        top: em(16);
+        right: em(16);
+        width: em(24);
+        height: em(24);
+      }
+
+      html[dir='rtl'] & {
+        right: auto;
+        left: em(24);
+
+        @include media-breakpoint-down(sm) {
+          left: auto;
+          right: em(16);
+        }
+      }
     }
 
     .header {
@@ -187,10 +235,10 @@ onUnmounted(() => {
     }
 
     .content {
-      margin-top: em(44);
+      margin-top: em(24);
 
       @include media-breakpoint-down(sm) {
-        margin-top: em(16);
+        margin-top: em(8);
       }
 
       .title {
@@ -226,18 +274,27 @@ onUnmounted(() => {
       }
 
       .btn {
-        width: em(189);
+        width: em(196);
         height: em(69);
         flex-direction: column;
         border-radius: em(3);
 
         @include media-breakpoint-down(sm) {
-          width: em(160);
+          width: em(136);
           height: em(48);
+          flex-shrink: 0;
         }
       }
 
-      .clam-btn {
+      .claim-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: em(4);
+        align-items: center;
+        flex-grow: 0;
+      }
+
+      .claim-btn {
         span {
           font-size: em(22);
           font-weight: $font-weight-medium;
@@ -245,6 +302,17 @@ onUnmounted(() => {
           @include media-breakpoint-down(sm) {
             font-size: em(16);
           }
+        }
+      }
+
+      .tnc-link {
+        text-align: center;
+
+        span {
+          color: $color-black;
+          font-size: em(14);
+          font-weight: $font-weight-regular;
+          line-height: 115%;
         }
       }
 

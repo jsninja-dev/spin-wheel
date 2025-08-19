@@ -1,7 +1,6 @@
 <script setup>
 import { qualities } from '@/configs/qualities';
 import breakpoints from '@/configs/breakpoints';
-import links from '@/constants/links';
 
 const { scrollToWheel } = useScroll();
 
@@ -49,9 +48,6 @@ function onBreakpointChange(swiper) {
               :text="$t('common.btnSpin')"
               @click="scrollToWheel"
             />
-            <a :href="links.TNC" class="tnc-link" target="_blank">
-              <span v-html="$t('common.TNC')" />
-            </a>
           </div>
           <div class="trust">
             <div class="trust-text">
@@ -283,25 +279,16 @@ function onBreakpointChange(swiper) {
         flex-direction: column;
         gap: em(4);
         align-items: center;
+        margin-bottom: em(32);
 
         @include media-breakpoint-down(sm) {
           width: 100%;
+          margin-bottom: 0;
         }
 
         .button {
           @include media-breakpoint-down(sm) {
             width: 100%;
-          }
-        }
-
-        .tnc-link {
-          text-align: center;
-
-          span {
-            color: $color-white;
-            font-size: em(14);
-            font-weight: $font-weight-regular;
-            line-height: 115%;
           }
         }
       }

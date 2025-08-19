@@ -19,13 +19,9 @@
         "VPS Gratis"
       ]
     },
-    "spinError": {
-      "title": "Tidak ada putaran lagi hari ini!",
-      "text": "Silakan coba lagi besok.",
-      "button": "OK"
-    },
     "form": {
       "header": "Selamat",
+      "headerEnd": "Tidak ada putaran lagi hari ini!",
       "text": "Anda Menang",
       "title": {
         "100bonus": "100% Bonus Deposit Pertama & 50% Bonus Deposit Ulang",
@@ -51,12 +47,11 @@
     "title": "Putar. Menang. Gunakan.<br />Atau Sesal",
     "subtitle": "Satu putaran bisa membuka<br class='hidden-mobile' /> kemenangan besar Anda!",
     "trust": "SquaredFinancial dinilai <strong>Sangat Baik</strong>",
-    "caption": "Hadiah Instan.<br /> Tanpa Deposit Diperlukan",
-    "tips": ["Bonus trading", "Poin loyalitas", "Trading bebas risiko"]
+    "caption": "Hadiah Instan.<br /> Tanpa Deposit Diperlukan"
   },
   "qualitiesSection": {
     "title": "Cara Kerja",
-    "subtitle": "Dapatkan bonus trading, poin loyalitas, trading bebas risiko, dan lebih banyak lagi.",
+    "subtitle": "Dapatkan bonus trading, poin loyalitas, dan lainnya.",
     "trust": "Nilai 4.4/5* dari trader",
     "cards": {
       "0": {

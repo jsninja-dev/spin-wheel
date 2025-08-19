@@ -3,10 +3,10 @@ import { ref, watch } from 'vue';
 import { prizes } from '@/configs/prizes';
 
 const { scrollToWheel } = useScroll();
-const { canSpin, decreaseSpinCount } = useSpinCount();
+const { canSpin, decreaseSpinCount, getSpinCount } = useSpinCount();
 
 const isFormOpen = ref(false);
-const isErrorOpen = ref(false);
+const isEnd = ref(false);
 const isOwn = ref(false);
 const prize = ref(null);
 const panel = ref(null);
@@ -38,24 +38,41 @@ const props = defineProps({
 async function spinWheel() {
   // Check if user can still spin
   if (!canSpin.value) {
-    isErrorOpen.value = true;
     store.setIsSpinning(false);
+    isEnd.value = true;
+    prize.value = prizes[prizes.length - 1];
+    isFormOpen.value = true;
     return;
   }
+
+  isEnd.value = false;
 
   // Decrease spin count
   decreaseSpinCount();
 
-  const posRandom = Math.random();
+  // Randomize the prize
+  // const posRandom = Math.random();
+  // let degRandom = 0;
+
+  // for (let i = 0; i < prizes.length; i++) {
+  //   if (
+  //     posRandom <
+  //     prizes.slice(0, i + 1).reduce((acc, curr) => acc + curr.possibility, 0)
+  //   ) {
+  //     degRandom = prizes[i].pos;
+  //     prize.value = prizes[i];
+  //     break;
+  //   }
+  // }
+
+  // certain steps
+  const spinCount = getSpinCount();
   let degRandom = 0;
 
   for (let i = 0; i < prizes.length; i++) {
-    if (
-      posRandom <
-      prizes.slice(0, i + 1).reduce((acc, curr) => acc + curr.possibility, 0)
-    ) {
-      degRandom = prizes[i].pos;
+    if (spinCount >= prizes[i].spin) {
       prize.value = prizes[i];
+      degRandom = prizes[i].pos;
       break;
     }
   }
@@ -148,8 +165,12 @@ function handleSpin() {
         <span class="spin-text" v-html="$t('common.wheel.spin')" />
       </div>
     </div>
-    <UiForm v-if="isFormOpen" :prize="prize" @close="isFormOpen = false" />
-    <UiFormError v-if="isErrorOpen" @close="isErrorOpen = false" />
+    <UiForm
+      v-if="isFormOpen"
+      :prize="prize"
+      :isEnd="isEnd"
+      @close="isFormOpen = false"
+    />
   </div>
 </template>
 
