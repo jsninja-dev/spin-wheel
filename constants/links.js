@@ -1,5 +1,6 @@
 export default {
-  TNC: 'https://d1sxh1d27p6t6a.cloudfront.net/v2/uploads/2025/06/27114408/100_-First-Time-Deposit-and-50_-Redeposit-Bonus-Terms-and-Conditions-V3_18.02.2025.pdf',
+  TNC100: 'https://d1sxh1d27p6t6a.cloudfront.net/v2/uploads/2025/06/27114408/100_-First-Time-Deposit-and-50_-Redeposit-Bonus-Terms-and-Conditions-V3_18.02.2025.pdf',
+  TNC25: 'https://d1sxh1d27p6t6a.cloudfront.net/v2/uploads/2025/03/17065045/25_-First-Time-Deposit-Bonus-Promotion-Terms-and-Conditions-12.03.25-Global.pdf',
 
   BONUS_100: 'https://sqfin.com/register/?utm_campaign=promo100FT50RLGLNL',
   BONUS_25: 'https://sqfin.com/register/?utm_campaign=promo25FTDGLLO',
