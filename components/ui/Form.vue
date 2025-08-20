@@ -36,6 +36,18 @@ const link = computed(() => {
   return '#';
 });
 
+const tncLink = computed(() => {
+  if (props.prize.name === '100bonus') {
+    return links.TNC100;
+  }
+
+  if (props.prize.name === '25bonus') {
+    return links.TNC25;
+  }
+
+  return '#';
+});
+
 const emit = defineEmits(['close']);
 
 const closeForm = () => {
@@ -84,7 +96,9 @@ onUnmounted(() => {
           />
           <UiGradientText class="header">
             <span class="header-text">
-              {{ isEnd ? $t('common.form.headerEnd') : $t('common.form.header') }}
+              {{
+                isEnd ? $t('common.form.headerEnd') : $t('common.form.header')
+              }}
             </span>
             <div v-if="!isEnd" class="square-dot" />
           </UiGradientText>
@@ -105,7 +119,7 @@ onUnmounted(() => {
               >
                 <span>{{ $t('common.form.claimBtn') }}</span>
               </UiButton>
-              <a :href="links.TNC" target="_blank" class="tnc-link">
+              <a :href="tncLink" target="_blank" class="tnc-link">
                 <span>{{ $t('common.TNC') }}</span>
               </a>
             </div>
